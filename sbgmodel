@@ -1,0 +1,811 @@
+<?xml version='1.0' encoding='utf8'?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+  <map>
+    <glyph id="id_0" class="macromolecule">
+      <label text="PPP3"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_1" class="macromolecule">
+      <label text="NFATC1"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_2" class="state variable">
+        <state variable="phospho" value="u"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_3" class="macromolecule">
+      <label text="NFATC1"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_4" class="state variable">
+        <state variable="phospho" value="p"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_5" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_1" target="id_5" id="id_6" class="consumption"/>
+    <arc source="id_5" target="id_3" id="id_7" class="production"/>
+    <arc source="id_0" target="id_5" id="id_8" class="catalysis"/>
+    <glyph id="id_9" class="unspecified entity">
+      <label text="receptors"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_10" class="unspecified entity">
+      <label text="self-major histocompatibility complex"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_12" class="complex">
+      <bbox x="1" y="1" w="60" h="65"/>
+      <glyph id="id_11" class="unspecified entity">
+        <label text="receptors"/>
+        <bbox x="0" y="0" w="60" h="30"/>
+      </glyph>
+      <glyph id="id_10" class="unspecified entity">
+        <label text="self-major histocompatibility complex"/>
+        <bbox x="0" y="0" w="60" h="30"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_13" class="association">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_9" target="id_13" id="id_14" class="consumption"/>
+    <arc source="id_10" target="id_13" id="id_15" class="consumption"/>
+    <arc source="id_13" target="id_11" id="id_16" class="production"/>
+    <glyph id="id_17" class="unspecified entity">
+      <label text="CD40 receptors"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_18" class="macromolecule">
+      <label text="CD40LG"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_20" class="complex">
+      <bbox x="1" y="1" w="60" h="65"/>
+      <glyph id="id_19" class="unspecified entity">
+        <label text="CD40 receptors"/>
+        <bbox x="0" y="0" w="60" h="30"/>
+      </glyph>
+      <glyph id="id_18" class="macromolecule">
+        <label text="CD40LG"/>
+        <bbox x="0" y="0" w="60" h="30"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_21" class="association">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_17" target="id_21" id="id_22" class="consumption"/>
+    <arc source="id_18" target="id_21" id="id_23" class="consumption"/>
+    <arc source="id_21" target="id_19" id="id_24" class="production"/>
+    <glyph id="id_25" class="macromolecule">
+      <label text="CD40"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_18" class="macromolecule">
+      <label text="CD40LG"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_27" class="complex">
+      <bbox x="1" y="1" w="60" h="65"/>
+      <glyph id="id_26" class="macromolecule">
+        <label text="CD40"/>
+        <bbox x="0" y="0" w="60" h="30"/>
+      </glyph>
+      <glyph id="id_18" class="macromolecule">
+        <label text="CD40LG"/>
+        <bbox x="0" y="0" w="60" h="30"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_28" class="association">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_25" target="id_28" id="id_29" class="consumption"/>
+    <arc source="id_18" target="id_28" id="id_30" class="consumption"/>
+    <arc source="id_28" target="id_26" id="id_31" class="production"/>
+    <glyph id="id_32" class="unspecified entity">
+      <label text="antigen"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_33" class="macromolecule">
+      <label text="CD3D"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_35" class="complex">
+      <bbox x="1" y="1" w="60" h="65"/>
+      <glyph id="id_34" class="unspecified entity">
+        <label text="antigen"/>
+        <bbox x="0" y="0" w="60" h="30"/>
+      </glyph>
+      <glyph id="id_33" class="macromolecule">
+        <label text="CD3D"/>
+        <bbox x="0" y="0" w="60" h="30"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_36" class="association">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_32" target="id_36" id="id_37" class="consumption"/>
+    <arc source="id_33" target="id_36" id="id_38" class="consumption"/>
+    <arc source="id_36" target="id_34" id="id_39" class="production"/>
+    <glyph id="id_40" class="unspecified entity">
+      <label text="Fc receptor"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_41" class="phenotype">
+      <label text="inflammatory response"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_42" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_43" class="phenotype">
+      <label text="inflammatory response"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_44" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_45" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_41" target="id_45" id="id_46" class="consumption"/>
+    <arc source="id_45" target="id_43" id="id_47" class="production"/>
+    <arc source="id_40" target="id_45" id="id_48" class="catalysis"/>
+    <glyph id="id_49" class="unspecified entity">
+      <label text="gluten"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_50" class="phenotype">
+      <label text="immune response"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_51" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_52" class="phenotype">
+      <label text="immune response"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_53" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_54" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_50" target="id_54" id="id_55" class="consumption"/>
+    <arc source="id_54" target="id_52" id="id_56" class="production"/>
+    <arc source="id_49" target="id_54" id="id_57" class="catalysis"/>
+    <glyph id="id_58" class="macromolecule">
+      <label text="IL25"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_59" class="unspecified entity">
+      <label text="Th2"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_60" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_61" class="unspecified entity">
+      <label text="Th2"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_62" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_63" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_59" target="id_63" id="id_64" class="consumption"/>
+    <arc source="id_63" target="id_61" id="id_65" class="production"/>
+    <arc source="id_58" target="id_63" id="id_66" class="catalysis"/>
+    <glyph id="id_67" class="simple chemical">
+      <label text="prostaglandin D2"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_68" class="unspecified entity">
+      <label text="Neoplasm Invasiveness"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_69" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_70" class="unspecified entity">
+      <label text="Neoplasm Invasiveness"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_71" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_72" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_68" target="id_72" id="id_73" class="consumption"/>
+    <arc source="id_72" target="id_70" id="id_74" class="production"/>
+    <arc source="id_67" target="id_72" id="id_75" class="catalysis"/>
+    <glyph id="id_76" class="simple chemical">
+      <label text="LSM-36909"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_77" class="phenotype">
+      <label text="cell population proliferation"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_78" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_79" class="phenotype">
+      <label text="cell population proliferation"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_80" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_81" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_77" target="id_81" id="id_82" class="consumption"/>
+    <arc source="id_81" target="id_79" id="id_83" class="production"/>
+    <arc source="id_76" target="id_81" id="id_84" class="catalysis"/>
+    <glyph id="id_85" class="unspecified entity">
+      <label text="CD4+"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_86" class="macromolecule">
+      <label text="TH"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_87" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_88" class="macromolecule">
+      <label text="TH"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_89" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_90" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_86" target="id_90" id="id_91" class="consumption"/>
+    <arc source="id_90" target="id_88" id="id_92" class="production"/>
+    <arc source="id_85" target="id_90" id="id_93" class="catalysis"/>
+    <glyph id="id_94" class="macromolecule">
+      <label text="IL10"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_86" class="macromolecule">
+      <label text="TH"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_95" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_88" class="macromolecule">
+      <label text="TH"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_96" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_97" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_86" target="id_97" id="id_98" class="consumption"/>
+    <arc source="id_97" target="id_88" id="id_99" class="production"/>
+    <arc source="id_94" target="id_97" id="id_100" class="catalysis"/>
+    <glyph id="id_101" class="simple chemical">
+      <label text="phenol"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_102" class="unspecified entity">
+      <label text="DNA Damage"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_103" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_104" class="unspecified entity">
+      <label text="DNA Damage"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_105" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_106" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_102" target="id_106" id="id_107" class="consumption"/>
+    <arc source="id_106" target="id_104" id="id_108" class="production"/>
+    <arc source="id_101" target="id_106" id="id_109" class="catalysis"/>
+    <glyph id="id_110" class="simple chemical">
+      <label text="nickel(2+)"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_43" class="phenotype">
+      <label text="inflammatory response"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_111" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_41" class="phenotype">
+      <label text="inflammatory response"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_112" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_113" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_43" target="id_113" id="id_114" class="consumption"/>
+    <arc source="id_113" target="id_41" id="id_115" class="production"/>
+    <arc source="id_110" target="id_113" id="id_116" class="catalysis"/>
+    <glyph id="id_110" class="simple chemical">
+      <label text="nickel(2+)"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_117" class="phenotype">
+      <label text="apoptotic process"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_118" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_119" class="phenotype">
+      <label text="apoptotic process"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_120" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_121" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_117" target="id_121" id="id_122" class="consumption"/>
+    <arc source="id_121" target="id_119" id="id_123" class="production"/>
+    <arc source="id_110" target="id_121" id="id_124" class="catalysis"/>
+    <glyph id="id_125" class="simple chemical">
+      <label text="acrolein"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_126" class="unspecified entity">
+      <label text="c-Jun"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_127" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_128" class="unspecified entity">
+      <label text="c-Jun"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_129" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_130" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_126" target="id_130" id="id_131" class="consumption"/>
+    <arc source="id_130" target="id_128" id="id_132" class="production"/>
+    <arc source="id_125" target="id_130" id="id_133" class="catalysis"/>
+    <glyph id="id_134" class="macromolecule">
+      <label text="PAH"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_135" class="state variable">
+        <state variable="methyl" value="y"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_136" class="simple chemical">
+      <label text="calcium atom"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_137" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_138" class="simple chemical">
+      <label text="calcium atom"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_139" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_140" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_136" target="id_140" id="id_141" class="consumption"/>
+    <arc source="id_140" target="id_138" id="id_142" class="production"/>
+    <arc source="id_134" target="id_140" id="id_143" class="catalysis"/>
+    <glyph id="id_144" class="simple chemical">
+      <label text="17alpha-ethynylestradiol"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_145" class="macromolecule">
+      <label text="NELFCD"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_146" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_147" class="macromolecule">
+      <label text="NELFCD"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_148" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_149" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_145" target="id_149" id="id_150" class="consumption"/>
+    <arc source="id_149" target="id_147" id="id_151" class="production"/>
+    <arc source="id_144" target="id_149" id="id_152" class="catalysis"/>
+    <glyph id="id_153" class="unspecified entity">
+      <label text="EDCs"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_145" class="macromolecule">
+      <label text="NELFCD"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_154" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_147" class="macromolecule">
+      <label text="NELFCD"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_155" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_156" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_145" target="id_156" id="id_157" class="consumption"/>
+    <arc source="id_156" target="id_147" id="id_158" class="production"/>
+    <arc source="id_153" target="id_156" id="id_159" class="catalysis"/>
+    <glyph id="id_160" class="macromolecule">
+      <label text="APCS"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_161" class="macromolecule">
+      <label text="ENG"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_162" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_163" class="macromolecule">
+      <label text="ENG"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_164" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_165" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_161" target="id_165" id="id_166" class="consumption"/>
+    <arc source="id_165" target="id_163" id="id_167" class="production"/>
+    <arc source="id_160" target="id_165" id="id_168" class="catalysis"/>
+    <glyph id="id_169" class="simple chemical">
+      <label text="tributylstannane"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_170" class="macromolecule">
+      <label text="IL12"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_171" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_172" class="macromolecule">
+      <label text="IL12"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_173" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_174" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_170" target="id_174" id="id_175" class="consumption"/>
+    <arc source="id_174" target="id_172" id="id_176" class="production"/>
+    <arc source="id_169" target="id_174" id="id_177" class="catalysis"/>
+    <glyph id="id_178" class="simple chemical">
+      <label text="4-octylphenol"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_170" class="macromolecule">
+      <label text="IL12"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_179" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_172" class="macromolecule">
+      <label text="IL12"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_180" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_181" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_170" target="id_181" id="id_182" class="consumption"/>
+    <arc source="id_181" target="id_172" id="id_183" class="production"/>
+    <arc source="id_178" target="id_181" id="id_184" class="catalysis"/>
+    <glyph id="id_185" class="simple chemical">
+      <label text="chloride"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_170" class="macromolecule">
+      <label text="IL12"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_186" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_172" class="macromolecule">
+      <label text="IL12"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_187" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_188" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_170" target="id_188" id="id_189" class="consumption"/>
+    <arc source="id_188" target="id_172" id="id_190" class="production"/>
+    <arc source="id_185" target="id_188" id="id_191" class="catalysis"/>
+    <glyph id="id_192" class="macromolecule">
+      <label text="ERCC8"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_193" class="macromolecule">
+      <label text="IL4"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_194" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_195" class="macromolecule">
+      <label text="IL4"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_196" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_197" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_193" target="id_197" id="id_198" class="consumption"/>
+    <arc source="id_197" target="id_195" id="id_199" class="production"/>
+    <arc source="id_192" target="id_197" id="id_200" class="catalysis"/>
+    <glyph id="id_192" class="macromolecule">
+      <label text="ERCC8"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_201" class="unspecified entity">
+      <label text="IFN-ɤ genes"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_202" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_203" class="unspecified entity">
+      <label text="IFN-ɤ genes"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_204" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_205" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_201" target="id_205" id="id_206" class="consumption"/>
+    <arc source="id_205" target="id_203" id="id_207" class="production"/>
+    <arc source="id_192" target="id_205" id="id_208" class="catalysis"/>
+    <glyph id="id_192" class="macromolecule">
+      <label text="ERCC8"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_209" class="macromolecule">
+      <label text="IL2"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_210" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_211" class="macromolecule">
+      <label text="IL2"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_212" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_213" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_209" target="id_213" id="id_214" class="consumption"/>
+    <arc source="id_213" target="id_211" id="id_215" class="production"/>
+    <arc source="id_192" target="id_213" id="id_216" class="catalysis"/>
+    <glyph id="id_217" class="unspecified entity">
+      <label text="receptor"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_218" class="phenotype">
+      <label text="signal transduction"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_219" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_220" class="phenotype">
+      <label text="signal transduction"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_221" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_222" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_218" target="id_222" id="id_223" class="consumption"/>
+    <arc source="id_222" target="id_220" id="id_224" class="production"/>
+    <arc source="id_217" target="id_222" id="id_225" class="catalysis"/>
+    <glyph id="id_226" class="simple chemical">
+      <label text="cyclosporin A"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_227" class="unspecified entity">
+      <label text="lysozyme"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_228" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_229" class="unspecified entity">
+      <label text="lysozyme"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_230" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_231" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_227" target="id_231" id="id_232" class="consumption"/>
+    <arc source="id_231" target="id_229" id="id_233" class="production"/>
+    <arc source="id_226" target="id_231" id="id_234" class="catalysis"/>
+    <glyph id="id_235" class="unspecified entity">
+      <label text="TNF-α"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_236" class="phenotype">
+      <label text="cell adhesion"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_237" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_238" class="phenotype">
+      <label text="cell adhesion"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_239" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_240" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_236" target="id_240" id="id_241" class="consumption"/>
+    <arc source="id_240" target="id_238" id="id_242" class="production"/>
+    <arc source="id_235" target="id_240" id="id_243" class="catalysis"/>
+    <glyph id="id_244" class="macromolecule">
+      <label text="arginase"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_245" class="unspecified entity">
+      <label text="TNF-α"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_246" class="state variable">
+        <state variable="act" value="i"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_247" class="unspecified entity">
+      <label text="TNF-α"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+      <glyph id="id_248" class="state variable">
+        <state variable="act" value="a"/>
+        <bbox x="1" y="1" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_249" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_245" target="id_249" id="id_250" class="consumption"/>
+    <arc source="id_249" target="id_247" id="id_251" class="production"/>
+    <arc source="id_244" target="id_249" id="id_252" class="catalysis"/>
+    <glyph id="id_253" class="unspecified entity">
+      <label text="messenger RNA"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_254" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_254" target="id_253" id="id_255" class="production"/>
+    <glyph id="id_256" class="simple chemical">
+      <label text="corticosterone"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <arc source="id_256" target="id_254" id="id_257" class="catalysis"/>
+    <glyph id="id_258" class="unspecified entity">
+      <label text="TGF-β4"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_259" class="process">
+      <bbox x="0" y="0" w="10" h="10"/>
+    </glyph>
+    <arc source="id_259" target="id_258" id="id_260" class="production"/>
+    <glyph id="id_256" class="simple chemical">
+      <label text="corticosterone"/>
+      <bbox x="0" y="0" w="60" h="30"/>
+    </glyph>
+    <arc source="id_256" target="id_259" id="id_261" class="catalysis"/>
+  </map>
+</sbgn>

@@ -1,0 +1,1325 @@
+var exp_colorscale = [];
+var mut_colorscale = [];
+var model_elements = {
+ "edges": [
+  {
+   "data": {
+    "i": "Phosphorylation",
+    "id": 2,
+    "polarity": "positive",
+    "source": 0,
+    "target": 1,
+    "uuid_list": [
+     "fdc679f7-0952-469b-b709-4d80cbafda4c"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Complex",
+    "id": 5,
+    "polarity": "none",
+    "source": 3,
+    "target": 4,
+    "uuid_list": [
+     "91ba9ccb-5084-4063-b01e-b8f5423fba9a"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Complex",
+    "id": 8,
+    "polarity": "none",
+    "source": 6,
+    "target": 7,
+    "uuid_list": [
+     "0549f8ae-6de1-43b4-a31d-6e5b7317f656"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Complex",
+    "id": 10,
+    "polarity": "none",
+    "source": 9,
+    "target": 7,
+    "uuid_list": [
+     "b0aa8908-04d0-47c6-b4d4-651502d439a7"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Complex",
+    "id": 13,
+    "polarity": "none",
+    "source": 11,
+    "target": 12,
+    "uuid_list": [
+     "1bd90980-af9c-4727-8b69-dcdbd5b67068"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 16,
+    "polarity": "positive",
+    "source": 14,
+    "target": 15,
+    "uuid_list": [
+     "856e57e9-7347-485d-beb2-9d0185374126"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 19,
+    "polarity": "positive",
+    "source": 17,
+    "target": 18,
+    "uuid_list": [
+     "99c514fb-fbb9-4b0b-aa3c-442164966279"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 22,
+    "polarity": "positive",
+    "source": 20,
+    "target": 21,
+    "uuid_list": [
+     "2a6e2a98-7188-4cec-9de0-08c8e879d1b2"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 25,
+    "polarity": "positive",
+    "source": 23,
+    "target": 24,
+    "uuid_list": [
+     "88472e14-c84b-4151-a011-894e7ee7bd96"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 28,
+    "polarity": "negative",
+    "source": 26,
+    "target": 27,
+    "uuid_list": [
+     "97b22bd8-14cf-4cf1-b913-f6a277480376"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 31,
+    "polarity": "negative",
+    "source": 29,
+    "target": 30,
+    "uuid_list": [
+     "637576d5-f160-4baf-9de1-919d9c5c74c9"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 33,
+    "polarity": "negative",
+    "source": 32,
+    "target": 30,
+    "uuid_list": [
+     "1ce0eaab-6f85-46d9-a979-c80c8f1c9185"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 36,
+    "polarity": "negative",
+    "source": 34,
+    "target": 35,
+    "uuid_list": [
+     "cf3e3247-941e-4a98-a0d9-eec8b620c80b"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 38,
+    "polarity": "negative",
+    "source": 37,
+    "target": 15,
+    "uuid_list": [
+     "6c277eeb-9afd-487e-840a-3e643bf661cd"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 40,
+    "polarity": "negative",
+    "source": 37,
+    "target": 39,
+    "uuid_list": [
+     "91dd7e0e-56a5-4dbf-820f-3beecf797b66"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 43,
+    "polarity": "negative",
+    "source": 41,
+    "target": 42,
+    "uuid_list": [
+     "45f56986-dfc5-41e3-8c75-2da4cd195eca"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 46,
+    "polarity": "positive",
+    "source": 44,
+    "target": 45,
+    "uuid_list": [
+     "7c073ec5-2cf2-4e69-a9f3-9b8e5c952b71"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 49,
+    "polarity": "negative",
+    "source": 47,
+    "target": 48,
+    "uuid_list": [
+     "f024e7f1-d739-43d5-afaf-c610b581f9aa"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 51,
+    "polarity": "negative",
+    "source": 50,
+    "target": 48,
+    "uuid_list": [
+     "e68ffb7a-1ff8-4a42-804e-d40667f6d0f1"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 54,
+    "polarity": "positive",
+    "source": 52,
+    "target": 53,
+    "uuid_list": [
+     "3dc0ddda-3d40-4367-80fe-bbcf73d6ef81"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 57,
+    "polarity": "negative",
+    "source": 55,
+    "target": 56,
+    "uuid_list": [
+     "cecb52ef-cad6-4ff9-9b79-a8b6e0559d97"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 59,
+    "polarity": "negative",
+    "source": 58,
+    "target": 56,
+    "uuid_list": [
+     "04ceb97c-d2d8-4de3-a7c4-bac6c93b4047"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 61,
+    "polarity": "negative",
+    "source": 60,
+    "target": 56,
+    "uuid_list": [
+     "e67e4abc-e0ca-4bf5-b855-0d8dfb99614e"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 64,
+    "polarity": "negative",
+    "source": 62,
+    "target": 63,
+    "uuid_list": [
+     "7fc1a1b7-674c-490c-9d8c-9060e5a2181e"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 66,
+    "polarity": "negative",
+    "source": 62,
+    "target": 65,
+    "uuid_list": [
+     "ea60e48f-9dde-431a-ba07-5a68558f830a"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 68,
+    "polarity": "negative",
+    "source": 62,
+    "target": 67,
+    "uuid_list": [
+     "a56b0277-6ed8-4a24-a9dd-c4d4228083a3"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 71,
+    "polarity": "positive",
+    "source": 69,
+    "target": 70,
+    "uuid_list": [
+     "86143117-ddba-4e31-9859-afe0cdabd05d"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 74,
+    "polarity": "negative",
+    "source": 72,
+    "target": 73,
+    "uuid_list": [
+     "571dfcb6-3f4b-46f0-8c4a-c3c4f79608bf"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 77,
+    "polarity": "positive",
+    "source": 75,
+    "target": 76,
+    "uuid_list": [
+     "c045b447-d049-4d18-91a3-ebc18de56055"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 79,
+    "polarity": "positive",
+    "source": 78,
+    "target": 75,
+    "uuid_list": [
+     "724e5aa9-9617-42c8-8fae-883841a890c6"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "IncreaseAmount",
+    "id": 82,
+    "polarity": "positive",
+    "source": 80,
+    "target": 81,
+    "uuid_list": [
+     "df6255d4-cea0-4ecd-8875-f1948c539b4b"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "IncreaseAmount",
+    "id": 84,
+    "polarity": "positive",
+    "source": 80,
+    "target": 83,
+    "uuid_list": [
+     "d541a957-7e7e-40c9-a606-3179df91f539"
+    ]
+   }
+  }
+ ],
+ "nodes": [
+  {
+   "data": {
+    "db_refs": {
+     "FPLX": "https://identifiers.org/fplx:PPP3",
+     "TEXT": "calcineurin"
+    },
+    "id": 0,
+    "members": {
+     "PPP3CA": {
+      "db_refs": {
+       "EGID": "https://identifiers.org/ncbigene:5530",
+       "HGNC": "https://identifiers.org/hgnc:9314",
+       "UP": "https://identifiers.org/uniprot:Q08209"
+      }
+     },
+     "PPP3CB": {
+      "db_refs": {
+       "EGID": "https://identifiers.org/ncbigene:5532",
+       "HGNC": "https://identifiers.org/hgnc:9315",
+       "UP": "https://identifiers.org/uniprot:P16298"
+      }
+     },
+     "PPP3CC": {
+      "db_refs": {
+       "EGID": "https://identifiers.org/ncbigene:5533",
+       "HGNC": "https://identifiers.org/hgnc:9316",
+       "UP": "https://identifiers.org/uniprot:P48454"
+      }
+     },
+     "PPP3R1": {
+      "db_refs": {
+       "EGID": "https://identifiers.org/ncbigene:5534",
+       "HGNC": "https://identifiers.org/hgnc:9317",
+       "UP": "https://identifiers.org/uniprot:P63098"
+      }
+     },
+     "PPP3R2": {
+      "db_refs": {
+       "EGID": "https://identifiers.org/ncbigene:5535",
+       "HGNC": "https://identifiers.org/hgnc:9318",
+       "UP": "https://identifiers.org/uniprot:Q96LZ3"
+      }
+     }
+    },
+    "name": "PPP3",
+    "parent": "",
+    "uuid_list": [
+     "fdc679f7-0952-469b-b709-4d80cbafda4c"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:4772",
+     "HGNC": "https://identifiers.org/hgnc:7775",
+     "TEXT": "NF-ATc",
+     "UniProt": "https://identifiers.org/uniprot:O95644"
+    },
+    "id": 1,
+    "members": {},
+    "name": "NFATC1",
+    "parent": "",
+    "uuid_list": [
+     "fdc679f7-0952-469b-b709-4d80cbafda4c"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "receptors"
+    },
+    "id": 3,
+    "members": {},
+    "name": "receptors",
+    "parent": "",
+    "uuid_list": [
+     "91ba9ccb-5084-4063-b01e-b8f5423fba9a"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "self-major histocompatibility complex"
+    },
+    "id": 4,
+    "members": {},
+    "name": "self-major histocompatibility complex",
+    "parent": "",
+    "uuid_list": [
+     "91ba9ccb-5084-4063-b01e-b8f5423fba9a"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "CD40 receptors"
+    },
+    "id": 6,
+    "members": {},
+    "name": "CD40 receptors",
+    "parent": "",
+    "uuid_list": [
+     "0549f8ae-6de1-43b4-a31d-6e5b7317f656"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:959",
+     "HGNC": "https://identifiers.org/hgnc:11935",
+     "TEXT": "CD40 ligand",
+     "UniProt": "https://identifiers.org/uniprot:P29965"
+    },
+    "id": 7,
+    "members": {},
+    "name": "CD40LG",
+    "parent": "",
+    "uuid_list": [
+     "0549f8ae-6de1-43b4-a31d-6e5b7317f656",
+     "b0aa8908-04d0-47c6-b4d4-651502d439a7"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:958",
+     "HGNC": "https://identifiers.org/hgnc:11919",
+     "TEXT": "CD40",
+     "UniProt": "https://identifiers.org/uniprot:P25942"
+    },
+    "id": 9,
+    "members": {},
+    "name": "CD40",
+    "parent": "",
+    "uuid_list": [
+     "b0aa8908-04d0-47c6-b4d4-651502d439a7"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "antigen"
+    },
+    "id": 11,
+    "members": {},
+    "name": "antigen",
+    "parent": "",
+    "uuid_list": [
+     "1bd90980-af9c-4727-8b69-dcdbd5b67068"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:915",
+     "HGNC": "https://identifiers.org/hgnc:1673",
+     "TEXT": "TCR",
+     "UniProt": "https://identifiers.org/uniprot:P04234"
+    },
+    "id": 12,
+    "members": {},
+    "name": "CD3D",
+    "parent": "",
+    "uuid_list": [
+     "1bd90980-af9c-4727-8b69-dcdbd5b67068"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "Fc receptor"
+    },
+    "id": 14,
+    "members": {},
+    "name": "Fc receptor",
+    "parent": "",
+    "uuid_list": [
+     "856e57e9-7347-485d-beb2-9d0185374126"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "GO": "https://identifiers.org/GO:0006954",
+     "MESH": "https://identifiers.org/mesh:D007249",
+     "TEXT": "inflammation"
+    },
+    "id": 15,
+    "members": {},
+    "name": "inflammatory response",
+    "parent": "",
+    "uuid_list": [
+     "856e57e9-7347-485d-beb2-9d0185374126",
+     "6c277eeb-9afd-487e-840a-3e643bf661cd"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "gluten"
+    },
+    "id": 17,
+    "members": {},
+    "name": "gluten",
+    "parent": "",
+    "uuid_list": [
+     "99c514fb-fbb9-4b0b-aa3c-442164966279"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "GO": "https://identifiers.org/GO:0006955",
+     "TEXT": "immune response"
+    },
+    "id": 18,
+    "members": {},
+    "name": "immune response",
+    "parent": "",
+    "uuid_list": [
+     "99c514fb-fbb9-4b0b-aa3c-442164966279"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:64806",
+     "HGNC": "https://identifiers.org/hgnc:13765",
+     "TEXT": "IL-17E",
+     "UniProt": "https://identifiers.org/uniprot:Q9H293"
+    },
+    "id": 20,
+    "members": {},
+    "name": "IL25",
+    "parent": "",
+    "uuid_list": [
+     "2a6e2a98-7188-4cec-9de0-08c8e879d1b2"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "Th2"
+    },
+    "id": 21,
+    "members": {},
+    "name": "Th2",
+    "parent": "",
+    "uuid_list": [
+     "2a6e2a98-7188-4cec-9de0-08c8e879d1b2"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "CAS": "https://identifiers.org/cas:41598-07-6",
+     "CHEMBL": "https://identifiers.org/chembl.compound:CHEMBL1235252",
+     "ChEBI": "https://identifiers.org/CHEBI:15555",
+     "DRUGBANK": "https://identifiers.org/drugbank:DB02056",
+     "HMDB": "https://identifiers.org/hmdb:HMDB0001403",
+     "MESH": "https://identifiers.org/mesh:D015230",
+     "PubChem": "https://identifiers.org/pubchem.compound:448457",
+     "TEXT": "PGD2"
+    },
+    "id": 23,
+    "members": {},
+    "name": "prostaglandin D2",
+    "parent": "",
+    "uuid_list": [
+     "88472e14-c84b-4151-a011-894e7ee7bd96"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "MESH": "https://identifiers.org/mesh:D009361",
+     "TEXT": "infiltration"
+    },
+    "id": 24,
+    "members": {},
+    "name": "Neoplasm Invasiveness",
+    "parent": "",
+    "uuid_list": [
+     "88472e14-c84b-4151-a011-894e7ee7bd96"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "ChEBI": "https://identifiers.org/CHEBI:125421",
+     "PubChem": "https://identifiers.org/pubchem.compound:14403",
+     "TEXT": "AFB1"
+    },
+    "id": 26,
+    "members": {},
+    "name": "LSM-36909",
+    "parent": "",
+    "uuid_list": [
+     "97b22bd8-14cf-4cf1-b913-f6a277480376"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "GO": "https://identifiers.org/GO:0008283",
+     "MESH": "https://identifiers.org/mesh:D049109",
+     "TEXT": "proliferation"
+    },
+    "id": 27,
+    "members": {},
+    "name": "cell population proliferation",
+    "parent": "",
+    "uuid_list": [
+     "97b22bd8-14cf-4cf1-b913-f6a277480376"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "CD4+"
+    },
+    "id": 29,
+    "members": {},
+    "name": "CD4+",
+    "parent": "",
+    "uuid_list": [
+     "637576d5-f160-4baf-9de1-919d9c5c74c9"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:7054",
+     "HGNC": "https://identifiers.org/hgnc:11782",
+     "TEXT": "Th",
+     "UniProt": "https://identifiers.org/uniprot:P07101"
+    },
+    "id": 30,
+    "members": {},
+    "name": "TH",
+    "parent": "",
+    "uuid_list": [
+     "637576d5-f160-4baf-9de1-919d9c5c74c9",
+     "1ce0eaab-6f85-46d9-a979-c80c8f1c9185"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:3586",
+     "HGNC": "https://identifiers.org/hgnc:5962",
+     "TEXT": "IL-10",
+     "UniProt": "https://identifiers.org/uniprot:P22301"
+    },
+    "id": 32,
+    "members": {},
+    "name": "IL10",
+    "parent": "",
+    "uuid_list": [
+     "1ce0eaab-6f85-46d9-a979-c80c8f1c9185"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "CAS": "https://identifiers.org/cas:108-95-2",
+     "CHEMBL": "https://identifiers.org/chembl.compound:CHEMBL14060",
+     "ChEBI": "https://identifiers.org/CHEBI:15882",
+     "DRUGBANK": "https://identifiers.org/drugbank:DB03255",
+     "HMDB": "https://identifiers.org/hmdb:HMDB0000228",
+     "MESH": "https://identifiers.org/mesh:D019800",
+     "PubChem": "https://identifiers.org/pubchem.compound:996",
+     "TEXT": "tea polyphenol"
+    },
+    "id": 34,
+    "members": {},
+    "name": "phenol",
+    "parent": "",
+    "uuid_list": [
+     "cf3e3247-941e-4a98-a0d9-eec8b620c80b"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "MESH": "https://identifiers.org/mesh:D004249",
+     "TEXT": "DNA damage"
+    },
+    "id": 35,
+    "members": {},
+    "name": "DNA Damage",
+    "parent": "",
+    "uuid_list": [
+     "cf3e3247-941e-4a98-a0d9-eec8b620c80b"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "CAS": "https://identifiers.org/cas:14701-22-5",
+     "CHEMBL": "https://identifiers.org/chembl.compound:CHEMBL56175",
+     "ChEBI": "https://identifiers.org/CHEBI:49786",
+     "DRUGBANK": "https://identifiers.org/drugbank:DB14204",
+     "HMDB": "https://identifiers.org/hmdb:HMDB0002457",
+     "PubChem": "https://identifiers.org/pubchem.compound:934",
+     "TEXT": "nickel"
+    },
+    "id": 37,
+    "members": {},
+    "name": "nickel(2+)",
+    "parent": "",
+    "uuid_list": [
+     "6c277eeb-9afd-487e-840a-3e643bf661cd",
+     "91dd7e0e-56a5-4dbf-820f-3beecf797b66"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "GO": "https://identifiers.org/GO:0006915",
+     "MESH": "https://identifiers.org/mesh:D017209",
+     "TEXT": "apoptosis"
+    },
+    "id": 39,
+    "members": {},
+    "name": "apoptotic process",
+    "parent": "",
+    "uuid_list": [
+     "91dd7e0e-56a5-4dbf-820f-3beecf797b66"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "CAS": "https://identifiers.org/cas:107-02-8",
+     "CHEMBL": "https://identifiers.org/chembl.compound:CHEMBL721",
+     "ChEBI": "https://identifiers.org/CHEBI:15368",
+     "HMDB": "https://identifiers.org/hmdb:HMDB0041822",
+     "MESH": "https://identifiers.org/mesh:D000171",
+     "PubChem": "https://identifiers.org/pubchem.compound:7847",
+     "TEXT": "acrolein"
+    },
+    "id": 41,
+    "members": {},
+    "name": "acrolein",
+    "parent": "",
+    "uuid_list": [
+     "45f56986-dfc5-41e3-8c75-2da4cd195eca"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "c-Jun"
+    },
+    "id": 42,
+    "members": {},
+    "name": "c-Jun",
+    "parent": "",
+    "uuid_list": [
+     "45f56986-dfc5-41e3-8c75-2da4cd195eca"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:5053",
+     "HGNC": "https://identifiers.org/hgnc:8582",
+     "TEXT": "PAH",
+     "UniProt": "https://identifiers.org/uniprot:P00439"
+    },
+    "id": 44,
+    "members": {},
+    "name": "PAH",
+    "parent": "",
+    "uuid_list": [
+     "7c073ec5-2cf2-4e69-a9f3-9b8e5c952b71"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "ChEBI": "https://identifiers.org/CHEBI:22984",
+     "DRUGBANK": "https://identifiers.org/drugbank:DB01373",
+     "MESH": "https://identifiers.org/mesh:D002118",
+     "PubChem": "https://identifiers.org/pubchem.compound:5460341",
+     "TEXT": "calcium"
+    },
+    "id": 45,
+    "members": {},
+    "name": "calcium atom",
+    "parent": "",
+    "uuid_list": [
+     "7c073ec5-2cf2-4e69-a9f3-9b8e5c952b71"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "CAS": "https://identifiers.org/cas:57-63-6",
+     "CHEMBL": "https://identifiers.org/chembl.compound:CHEMBL691",
+     "ChEBI": "https://identifiers.org/CHEBI:4903",
+     "DRUGBANK": "https://identifiers.org/drugbank:DB00977",
+     "HMDB": "https://identifiers.org/hmdb:HMDB0001926",
+     "MESH": "https://identifiers.org/mesh:D004997",
+     "PubChem": "https://identifiers.org/pubchem.compound:5991",
+     "TEXT": "estrogen"
+    },
+    "id": 47,
+    "members": {},
+    "name": "17alpha-ethynylestradiol",
+    "parent": "",
+    "uuid_list": [
+     "f024e7f1-d739-43d5-afaf-c610b581f9aa"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:51497",
+     "HGNC": "https://identifiers.org/hgnc:15934",
+     "TEXT": "TH1",
+     "UniProt": "https://identifiers.org/uniprot:Q8IXH7"
+    },
+    "id": 48,
+    "members": {},
+    "name": "NELFCD",
+    "parent": "",
+    "uuid_list": [
+     "f024e7f1-d739-43d5-afaf-c610b581f9aa",
+     "e68ffb7a-1ff8-4a42-804e-d40667f6d0f1"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "EDCs"
+    },
+    "id": 50,
+    "members": {},
+    "name": "EDCs",
+    "parent": "",
+    "uuid_list": [
+     "e68ffb7a-1ff8-4a42-804e-d40667f6d0f1"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:325",
+     "HGNC": "https://identifiers.org/hgnc:584",
+     "TEXT": "APCs",
+     "UniProt": "https://identifiers.org/uniprot:P02743"
+    },
+    "id": 52,
+    "members": {},
+    "name": "APCS",
+    "parent": "",
+    "uuid_list": [
+     "3dc0ddda-3d40-4367-80fe-bbcf73d6ef81"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:2022",
+     "HGNC": "https://identifiers.org/hgnc:3349",
+     "TEXT": "end",
+     "UniProt": "https://identifiers.org/uniprot:P17813"
+    },
+    "id": 53,
+    "members": {},
+    "name": "ENG",
+    "parent": "",
+    "uuid_list": [
+     "3dc0ddda-3d40-4367-80fe-bbcf73d6ef81"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "CAS": "https://identifiers.org/cas:688-73-3",
+     "ChEBI": "https://identifiers.org/CHEBI:27086",
+     "DRUGBANK": "https://identifiers.org/drugbank:DB08601",
+     "PubChem": "https://identifiers.org/pubchem.compound:5948",
+     "TEXT": "tributyltin"
+    },
+    "id": 55,
+    "members": {},
+    "name": "tributylstannane",
+    "parent": "",
+    "uuid_list": [
+     "cecb52ef-cad6-4ff9-9b79-a8b6e0559d97"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "FPLX": "https://identifiers.org/fplx:IL12",
+     "NCIT": "https://identifiers.org/ncit:C20514",
+     "Pfam": "https://identifiers.org/pfam:PF03039",
+     "TEXT": "IL-12"
+    },
+    "id": 56,
+    "members": {
+     "IL12A": {
+      "db_refs": {
+       "EGID": "https://identifiers.org/ncbigene:3592",
+       "HGNC": "https://identifiers.org/hgnc:5969",
+       "UP": "https://identifiers.org/uniprot:P29459"
+      }
+     },
+     "IL12B": {
+      "db_refs": {
+       "EGID": "https://identifiers.org/ncbigene:3593",
+       "HGNC": "https://identifiers.org/hgnc:5970",
+       "UP": "https://identifiers.org/uniprot:P29460"
+      }
+     }
+    },
+    "name": "IL12",
+    "parent": "",
+    "uuid_list": [
+     "cecb52ef-cad6-4ff9-9b79-a8b6e0559d97",
+     "04ceb97c-d2d8-4de3-a7c4-bac6c93b4047",
+     "e67e4abc-e0ca-4bf5-b855-0d8dfb99614e"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "CAS": "https://identifiers.org/cas:1806-26-4",
+     "CHEMBL": "https://identifiers.org/chembl.compound:CHEMBL195437",
+     "ChEBI": "https://identifiers.org/CHEBI:34432",
+     "MESH": "https://identifiers.org/mesh:C080417",
+     "PubChem": "https://identifiers.org/pubchem.compound:15730",
+     "TEXT": "p-octylphenol"
+    },
+    "id": 58,
+    "members": {},
+    "name": "4-octylphenol",
+    "parent": "",
+    "uuid_list": [
+     "04ceb97c-d2d8-4de3-a7c4-bac6c93b4047"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "CAS": "https://identifiers.org/cas:16887-00-6",
+     "CHEMBL": "https://identifiers.org/chembl.compound:CHEMBL19429",
+     "ChEBI": "https://identifiers.org/CHEBI:17996",
+     "DRUGBANK": "https://identifiers.org/drugbank:DB14547",
+     "HMDB": "https://identifiers.org/hmdb:HMDB0000492",
+     "MESH": "https://identifiers.org/mesh:D002712",
+     "PubChem": "https://identifiers.org/pubchem.compound:312",
+     "TEXT": "chloride"
+    },
+    "id": 60,
+    "members": {},
+    "name": "chloride",
+    "parent": "",
+    "uuid_list": [
+     "e67e4abc-e0ca-4bf5-b855-0d8dfb99614e"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:1161",
+     "HGNC": "https://identifiers.org/hgnc:3439",
+     "TEXT": "CsA",
+     "UniProt": "https://identifiers.org/uniprot:Q13216"
+    },
+    "id": 62,
+    "members": {},
+    "name": "ERCC8",
+    "parent": "",
+    "uuid_list": [
+     "7fc1a1b7-674c-490c-9d8c-9060e5a2181e",
+     "ea60e48f-9dde-431a-ba07-5a68558f830a",
+     "a56b0277-6ed8-4a24-a9dd-c4d4228083a3"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:3565",
+     "HGNC": "https://identifiers.org/hgnc:6014",
+     "TEXT": "IL-4",
+     "UniProt": "https://identifiers.org/uniprot:P05112"
+    },
+    "id": 63,
+    "members": {},
+    "name": "IL4",
+    "parent": "",
+    "uuid_list": [
+     "7fc1a1b7-674c-490c-9d8c-9060e5a2181e"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "IFN-\u0264 genes"
+    },
+    "id": 65,
+    "members": {},
+    "name": "IFN-\u0264 genes",
+    "parent": "",
+    "uuid_list": [
+     "ea60e48f-9dde-431a-ba07-5a68558f830a"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:3558",
+     "HGNC": "https://identifiers.org/hgnc:6001",
+     "TEXT": "IL-2",
+     "UniProt": "https://identifiers.org/uniprot:P60568"
+    },
+    "id": 67,
+    "members": {},
+    "name": "IL2",
+    "parent": "",
+    "uuid_list": [
+     "a56b0277-6ed8-4a24-a9dd-c4d4228083a3"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "receptor"
+    },
+    "id": 69,
+    "members": {},
+    "name": "receptor",
+    "parent": "",
+    "uuid_list": [
+     "86143117-ddba-4e31-9859-afe0cdabd05d"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "GO": "https://identifiers.org/GO:0007165",
+     "MESH": "https://identifiers.org/mesh:D015398",
+     "TEXT": "signal transduction pathways"
+    },
+    "id": 70,
+    "members": {},
+    "name": "signal transduction",
+    "parent": "",
+    "uuid_list": [
+     "86143117-ddba-4e31-9859-afe0cdabd05d"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "CAS": "https://identifiers.org/cas:59865-13-3",
+     "CHEMBL": "https://identifiers.org/chembl.compound:CHEMBL160",
+     "ChEBI": "https://identifiers.org/CHEBI:4031",
+     "DRUGBANK": "https://identifiers.org/drugbank:DB00091",
+     "HMS-LINCS": "http://lincs.hms.harvard.edu/db/sm/10649-101",
+     "PubChem": "https://identifiers.org/pubchem.compound:5284373",
+     "TEXT": "cyclosporin A"
+    },
+    "id": 72,
+    "members": {},
+    "name": "cyclosporin A",
+    "parent": "",
+    "uuid_list": [
+     "571dfcb6-3f4b-46f0-8c4a-c3c4f79608bf"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "InterPro": "https://identifiers.org/interpro:IPR000974",
+     "TEXT": "lysozyme"
+    },
+    "id": 73,
+    "members": {},
+    "name": "lysozyme",
+    "parent": "",
+    "uuid_list": [
+     "571dfcb6-3f4b-46f0-8c4a-c3c4f79608bf"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "TNF-\u03b1"
+    },
+    "id": 75,
+    "members": {},
+    "name": "TNF-\u03b1",
+    "parent": "",
+    "uuid_list": [
+     "c045b447-d049-4d18-91a3-ebc18de56055",
+     "724e5aa9-9617-42c8-8fae-883841a890c6"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "GO": "https://identifiers.org/GO:0007155",
+     "MESH": "https://identifiers.org/mesh:D002448",
+     "TEXT": "adhesion"
+    },
+    "id": 76,
+    "members": {},
+    "name": "cell adhesion",
+    "parent": "",
+    "uuid_list": [
+     "c045b447-d049-4d18-91a3-ebc18de56055"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "Pfam": "https://identifiers.org/pfam:PF00491",
+     "TEXT": "arginase"
+    },
+    "id": 78,
+    "members": {},
+    "name": "arginase",
+    "parent": "",
+    "uuid_list": [
+     "724e5aa9-9617-42c8-8fae-883841a890c6"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "CAS": "https://identifiers.org/cas:50-22-6",
+     "CHEMBL": "https://identifiers.org/chembl.compound:CHEMBL110739",
+     "ChEBI": "https://identifiers.org/CHEBI:16827",
+     "DRUGBANK": "https://identifiers.org/drugbank:DB04652",
+     "HMDB": "https://identifiers.org/hmdb:HMDB0001547",
+     "MESH": "https://identifiers.org/mesh:D003345",
+     "PubChem": "https://identifiers.org/pubchem.compound:5753",
+     "TEXT": "corticosterone"
+    },
+    "id": 80,
+    "members": {},
+    "name": "corticosterone",
+    "parent": "",
+    "uuid_list": [
+     "df6255d4-cea0-4ecd-8875-f1948c539b4b",
+     "d541a957-7e7e-40c9-a606-3179df91f539"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "messenger RNA"
+    },
+    "id": 81,
+    "members": {},
+    "name": "messenger RNA",
+    "parent": "",
+    "uuid_list": [
+     "df6255d4-cea0-4ecd-8875-f1948c539b4b"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "TGF-\u03b24"
+    },
+    "id": 83,
+    "members": {},
+    "name": "TGF-\u03b24",
+    "parent": "",
+    "uuid_list": [
+     "d541a957-7e7e-40c9-a606-3179df91f539"
+    ]
+   }
+  }
+ ]
+};

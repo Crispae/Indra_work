@@ -1,0 +1,2508 @@
+{
+  "events" : {
+    "frames" : [ {
+      "is-hypothesis" : true,
+      "frame-id" : "evem-api34737-UAZ-r1-Reach-1-150376",
+      "text" : "CAMP response element binding protein 3",
+      "arguments" : [ {
+        "text" : "protein 3",
+        "argument-type" : "entity",
+        "type" : "theme",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api34737-UAZ-r1-Reach-1-1424210"
+      }, {
+        "text" : "CAMP",
+        "argument-type" : "entity",
+        "type" : "theme",
+        "object-type" : "argument",
+        "index" : 1,
+        "arg" : "ment-api34737-UAZ-r1-Reach-1-1424209"
+      } ],
+      "type" : "complex-assembly",
+      "frame-type" : "event-mention",
+      "is-direct" : true,
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 159,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "binding",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 120,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-1",
+      "found-by" : "binding5",
+      "verbose-text" : "Background : CAMP response element binding protein 3 like 1 (CREB3L1) has been indicated as a critical biomarker and can modulate multifaced behaviors of tumor cells in diverse cancers."
+    }, {
+      "frame-id" : "evem-api34737-UAZ-r1-Reach-3-150373",
+      "text" : "CREB3L1 expression",
+      "arguments" : [ {
+        "text" : "CREB3L1",
+        "argument-type" : "entity",
+        "type" : "theme",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api34737-UAZ-r1-Reach-3-1424214"
+      } ],
+      "type" : "transcription",
+      "frame-type" : "event-mention",
+      "subtype" : "transcription",
+      "is-direct" : false,
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 540,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "expression",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 522,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-3",
+      "found-by" : "expression_1",
+      "verbose-text" : "Methods : CREB3L1 expression in 33 different cancer types was investigated using RNAseq data from The Cancer Genome Atlas (TCGA) database."
+    }, {
+      "frame-id" : "evem-api34737-UAZ-r1-Reach-7-150374",
+      "text" : "CREB3L1 expression",
+      "arguments" : [ {
+        "text" : "CREB3L1",
+        "argument-type" : "entity",
+        "type" : "theme",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api34737-UAZ-r1-Reach-7-1424220"
+      } ],
+      "type" : "transcription",
+      "frame-type" : "event-mention",
+      "subtype" : "transcription",
+      "is-direct" : false,
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1064,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "expression",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1046,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-7",
+      "found-by" : "expression_1",
+      "verbose-text" : "The associations between CREB3L1 expression and tumor mutation burden (TMB), and microsatellite instability (MSI) were assessed by spearman 's rank correlation coefficient."
+    }, {
+      "frame-id" : "evem-api34737-UAZ-r1-Reach-9-150369",
+      "text" : "CREB3L1 expression",
+      "arguments" : [ {
+        "text" : "CREB3L1",
+        "argument-type" : "entity",
+        "type" : "theme",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api34737-UAZ-r1-Reach-9-1424224"
+      } ],
+      "type" : "transcription",
+      "frame-type" : "event-mention",
+      "subtype" : "transcription",
+      "is-direct" : false,
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1403,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "expression",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1385,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-9",
+      "found-by" : "expression_1",
+      "verbose-text" : "The correlations of CREB3L1 expression with PD-1 / PD-L1 inhibitors efficacy and drug sensitivity were also investigated."
+    }, {
+      "frame-id" : "evem-api34737-UAZ-r1-Reach-10-150371",
+      "text" : "expression of CREB3L1",
+      "arguments" : [ {
+        "text" : "CREB3L1",
+        "argument-type" : "entity",
+        "type" : "theme",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api34737-UAZ-r1-Reach-10-1424227"
+      } ],
+      "type" : "transcription",
+      "frame-type" : "event-mention",
+      "subtype" : "transcription",
+      "is-direct" : false,
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1521,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "expression",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1500,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-10",
+      "found-by" : "transcription_1b",
+      "verbose-text" : "Results : The expression of CREB3L1 was abnormally high or low in several different cancer types, and was also strictly associated with the prognosis of cancer patients."
+    }, {
+      "frame-id" : "evem-api34737-UAZ-r1-Reach-11-150370",
+      "text" : "CREB3L1 expression levels",
+      "arguments" : [ {
+        "text" : "CREB3L1",
+        "argument-type" : "entity",
+        "type" : "theme",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api34737-UAZ-r1-Reach-11-1424228"
+      } ],
+      "type" : "amount",
+      "frame-type" : "event-mention",
+      "subtype" : "amount",
+      "is-direct" : false,
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1681,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "levels",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1656,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-11",
+      "found-by" : "amount_1",
+      "verbose-text" : "CREB3L1 expression levels have a strong relationship with infiltrating immune cells, including regulatory T cells, CD8 + T cells, macrophages, B na ï ve cells, dendritic cells and mast cells."
+    }, {
+      "frame-id" : "evem-api34737-UAZ-r1-Reach-12-150375",
+      "text" : "CREB3L1 expression",
+      "arguments" : [ {
+        "text" : "CREB3L1",
+        "argument-type" : "entity",
+        "type" : "theme",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api34737-UAZ-r1-Reach-12-1424236"
+      } ],
+      "type" : "transcription",
+      "frame-type" : "event-mention",
+      "subtype" : "transcription",
+      "is-direct" : false,
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1865,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "expression",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1847,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-12",
+      "found-by" : "expression_1",
+      "verbose-text" : "CREB3L1 expression was also correlated with the expression of multiple immune related biomolecules, TMB, and MSI in several cancers."
+    }, {
+      "frame-id" : "evem-api34737-UAZ-r1-Reach-12-150372",
+      "text" : "expression of multiple immune-related biomolecules, TMB",
+      "arguments" : [ {
+        "text" : "TMB",
+        "argument-type" : "entity",
+        "type" : "theme",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api34737-UAZ-r1-Reach-12-1424237"
+      } ],
+      "type" : "transcription",
+      "frame-type" : "event-mention",
+      "subtype" : "transcription",
+      "is-direct" : false,
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1950,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "expression",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1895,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-12",
+      "found-by" : "transcription_1b",
+      "verbose-text" : "CREB3L1 expression was also correlated with the expression of multiple immune related biomolecules, TMB, and MSI in several cancers."
+    } ],
+    "object-type" : "frame-collection",
+    "object-meta" : {
+      "processing-end" : "2022-10-06T17:07:02Z",
+      "doc-id" : "api34737",
+      "component-type" : "machine",
+      "component" : "Reach",
+      "processing-start" : "2022-10-06T17:06:58Z",
+      "object-type" : "meta-info",
+      "organization" : "UAZ"
+    }
+  },
+  "entities" : {
+    "frames" : [ {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-0-1424208",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 30,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 23,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-0",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-1-1424211",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 175,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 168,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-1",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "CAMP",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-1-1424209",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 124,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "P49913"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 120,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-1",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "P49913"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96JM3"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "P49913"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96JM3"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "arthrobacter siderocapsulatus",
+        "object-type" : "db-reference",
+        "id" : "Q6STM1"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "ateles fusciceps",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY7"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "ateles fusciceps robustus",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "ateles geoffroyi fusciceps",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY7"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "black crested gibbon",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY0"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "bornean orangutan",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "brown-headed spider monkey",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY7"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "callithrix jacchus",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY4"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "cebus capucinus",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY5"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "cercopithecus aethiops",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY6"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "chimpanzee",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX1"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "chlorocebus aethiops",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY6"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "colombian black-faced spider monkey",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "cotton-top tamarin",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX0"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "crab-eating macaque",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX7"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "cynomolgus monkey",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX7"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "dusky leaf-monkey",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX4"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "gorilla gorilla gorilla",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY3"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "green monkey",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY6"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "guinea baboon",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX3"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "hylobates concolor",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY0"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "hylobates leucogenys",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX9"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "hylobates moloch",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "macaca fascicularis",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX7"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "macaca mulatta",
+        "object-type" : "db-reference",
+        "id" : "Q9GLV5"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "macaca tonkeana",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX6"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "P51437"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "P51437"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "nomascus concolor",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY0"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "nomascus gabriellae",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "nomascus leucogenys",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX9"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "northern white-cheeked gibbon",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX9"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "pan troglodytes",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX1"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "papio papio",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX3"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "pongo pygmaeus",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "presbytis cristata",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX5"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "presbytis obscura",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX4"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "pseudomonas putida",
+        "object-type" : "db-reference",
+        "id" : "Q6STM1"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "red-cheeked gibbon",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rhesus macaque",
+        "object-type" : "db-reference",
+        "id" : "Q9GLV5"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "saguinus oedipus",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX0"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "silvered leaf-monkey",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX5"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "silvery gibbon",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "tonkean macaque",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX6"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "trachypithecus cristatus",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX5"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "trachypithecus obscurus",
+        "object-type" : "db-reference",
+        "id" : "Q1KLX4"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "western lowland gorilla",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY3"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "white-faced sapajou",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY5"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "white-tufted-ear marmoset",
+        "object-type" : "db-reference",
+        "id" : "Q1KLY4"
+      } ]
+    }, {
+      "text" : "protein 3",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-1-1424210",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 159,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q12988"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 150,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-1",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q12988"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q12988"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "bat coronavirus 279/2005",
+        "object-type" : "db-reference",
+        "id" : "Q0Q474"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "bat coronavirus hku3",
+        "object-type" : "db-reference",
+        "id" : "Q3LZX0"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "bat coronavirus rp3/2004",
+        "object-type" : "db-reference",
+        "id" : "Q3I5J4"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "btcov",
+        "object-type" : "db-reference",
+        "id" : "Q0Q474"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "btcov",
+        "object-type" : "db-reference",
+        "id" : "Q3LZX0"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "btcov/279/2005",
+        "object-type" : "db-reference",
+        "id" : "Q0Q474"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "btcov/rp3/2004",
+        "object-type" : "db-reference",
+        "id" : "Q3I5J4"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "camv",
+        "object-type" : "db-reference",
+        "id" : "P03551"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "camv",
+        "object-type" : "db-reference",
+        "id" : "P03552"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "camv",
+        "object-type" : "db-reference",
+        "id" : "P03553"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "camv",
+        "object-type" : "db-reference",
+        "id" : "Q00967"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "camv",
+        "object-type" : "db-reference",
+        "id" : "Q02967"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "carnation etched ring virus",
+        "object-type" : "db-reference",
+        "id" : "P05398"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "cauliflower mosaic virus (strain bbc)",
+        "object-type" : "db-reference",
+        "id" : "Q02967"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "cauliflower mosaic virus (strain cm-1841)",
+        "object-type" : "db-reference",
+        "id" : "P03552"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "cauliflower mosaic virus (strain d/h)",
+        "object-type" : "db-reference",
+        "id" : "P03553"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "cauliflower mosaic virus (strain ny8153)",
+        "object-type" : "db-reference",
+        "id" : "Q00967"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "cauliflower mosaic virus (strain strasbourg)",
+        "object-type" : "db-reference",
+        "id" : "P03551"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "cerv",
+        "object-type" : "db-reference",
+        "id" : "P05398"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "figwort mosaic virus (strain dxs)",
+        "object-type" : "db-reference",
+        "id" : "P09522"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "fmv",
+        "object-type" : "db-reference",
+        "id" : "P09522"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "hcov-nl63",
+        "object-type" : "db-reference",
+        "id" : "Q6Q1S1"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human coronavirus nl63",
+        "object-type" : "db-reference",
+        "id" : "Q6Q1S1"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "isolate japan/kagawa",
+        "object-type" : "db-reference",
+        "id" : "Q68Y30"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "isolate maize/united states/reed/2005",
+        "object-type" : "db-reference",
+        "id" : "Q6E0W9"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "lbvav",
+        "object-type" : "db-reference",
+        "id" : "Q68Y30"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "lettuce big-vein associated virus",
+        "object-type" : "db-reference",
+        "id" : "Q68Y30"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "maize mosaic virus",
+        "object-type" : "db-reference",
+        "id" : "Q6E0W9"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mmv",
+        "object-type" : "db-reference",
+        "id" : "Q6E0W9"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "ncmv",
+        "object-type" : "db-reference",
+        "id" : "Q9JGT9"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "northern cereal mosaic virus",
+        "object-type" : "db-reference",
+        "id" : "Q9JGT9"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rice transitory yellowing virus",
+        "object-type" : "db-reference",
+        "id" : "Q98663"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rice yellow stunt virus",
+        "object-type" : "db-reference",
+        "id" : "Q98663"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rysv",
+        "object-type" : "db-reference",
+        "id" : "Q98663"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "sars-like coronavirus hku3",
+        "object-type" : "db-reference",
+        "id" : "Q3LZX0"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "sars-like coronavirus rp3",
+        "object-type" : "db-reference",
+        "id" : "Q3I5J4"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "taro vein chlorosis virus",
+        "object-type" : "db-reference",
+        "id" : "Q5GA88"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "tavcv",
+        "object-type" : "db-reference",
+        "id" : "Q5GA88"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-2-1424212",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 336,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 329,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-2",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-2-1424213",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 401,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 394,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-2",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-3-1424214",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 529,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 522,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-3",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "Atlas",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-3-1424215",
+      "type" : "organ",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 633,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uberon",
+        "object-type" : "db-reference",
+        "id" : "UBERON:0001092"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 628,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-3",
+      "alt-xrefs" : [ {
+        "namespace" : "uberon",
+        "object-type" : "db-reference",
+        "id" : "UBERON:0001092"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-4-1424216",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 681,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 674,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-4",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-5-1424217",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 791,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 784,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-5",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "TISIDB",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-6-1424219",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1003,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uaz",
+        "object-type" : "db-reference",
+        "id" : "UAZ27819"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 997,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-6"
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-6-1424218",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 891,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 884,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-6",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-7-1424220",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1053,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1046,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-7",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "rank",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-7-1424221",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1167,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q9Y6Q6"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1163,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-7",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q9Y6Q6"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q9Y6Q6"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "O35305"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "O35305"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-8-1424222",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1336,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1329,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-8",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "human",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-8-1424223",
+      "type" : "species",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1355,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "taxonomy",
+        "object-type" : "db-reference",
+        "id" : "9606"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1350,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-8",
+      "alt-xrefs" : [ {
+        "namespace" : "taxonomy",
+        "object-type" : "db-reference",
+        "id" : "9606"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-9-1424224",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1392,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1385,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-9",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "PD-L1 inhibitors",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-9-1424226",
+      "type" : "simple-chemical",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1430,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uaz",
+        "object-type" : "db-reference",
+        "id" : "UAZ03040"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1414,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-9"
+    }, {
+      "text" : "PD-1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-9-1424225",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1413,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "P18621"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1409,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-9",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "P18621"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q15116"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q9UM82"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "P18621"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q15116"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q9UM82"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "arabidopsis thaliana",
+        "object-type" : "db-reference",
+        "id" : "Q9ZUY3"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q02242"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse-ear cress",
+        "object-type" : "db-reference",
+        "id" : "Q9ZUY3"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q02242"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-10-1424227",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1521,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1514,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-10",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-11-1424228",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1663,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1656,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-11",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "dendritic cells",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-11-1424234",
+      "type" : "celltype",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1830,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "cl",
+        "object-type" : "db-reference",
+        "id" : "CL:0000451"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1815,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-11",
+      "alt-xrefs" : [ {
+        "namespace" : "cl",
+        "object-type" : "db-reference",
+        "id" : "CL:0000451"
+      } ]
+    }, {
+      "text" : "T cells",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-11-1424232",
+      "type" : "celltype",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1785,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "cl",
+        "object-type" : "db-reference",
+        "id" : "CL:0000084"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1778,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-11",
+      "alt-xrefs" : [ {
+        "namespace" : "cl",
+        "object-type" : "db-reference",
+        "id" : "CL:0000084"
+      } ]
+    }, {
+      "text" : "mast cells",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-11-1424235",
+      "type" : "celltype",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1845,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "cl",
+        "object-type" : "db-reference",
+        "id" : "CL:0000097"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1835,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-11",
+      "alt-xrefs" : [ {
+        "namespace" : "cl",
+        "object-type" : "db-reference",
+        "id" : "CL:0000097"
+      } ]
+    }, {
+      "text" : "immune cells",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-11-1424229",
+      "type" : "celltype",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1739,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "cl",
+        "object-type" : "db-reference",
+        "id" : "CL:0000738"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1727,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-11",
+      "alt-xrefs" : [ {
+        "namespace" : "cl",
+        "object-type" : "db-reference",
+        "id" : "CL:0000738"
+      } ]
+    }, {
+      "text" : "macrophages",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-11-1424233",
+      "type" : "celltype",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1798,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "cl",
+        "object-type" : "db-reference",
+        "id" : "CL:0000235"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1787,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-11",
+      "alt-xrefs" : [ {
+        "namespace" : "cl",
+        "object-type" : "db-reference",
+        "id" : "CL:0000235"
+      } ]
+    }, {
+      "text" : "CD8",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-11-1424231",
+      "type" : "family",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1774,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "be",
+        "object-type" : "db-reference",
+        "id" : "CD8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1771,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-11"
+    }, {
+      "text" : "regulatory T cells",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-11-1424230",
+      "type" : "celltype",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1769,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "cl",
+        "object-type" : "db-reference",
+        "id" : "CL:0000815"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1751,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-11",
+      "alt-xrefs" : [ {
+        "namespace" : "cl",
+        "object-type" : "db-reference",
+        "id" : "CL:0000815"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-12-1424236",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1854,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1847,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-12",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "TMB",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-12-1424237",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1950,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uaz",
+        "object-type" : "db-reference",
+        "id" : "UAZ03083"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1947,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-12"
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-13-1424238",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1997,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1990,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-13",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-14-1424240",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 2274,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 2267,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-14",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-14-1424241",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 2367,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 2360,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-14",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    }, {
+      "text" : "CREB3L1",
+      "frame-id" : "ment-api34737-UAZ-r1-Reach-14-1424239",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 2170,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 2163,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api34737-UAZ-r1-Reach-14",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q96BA8"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "Q9Z125"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rat",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "rattus norvegicus",
+        "object-type" : "db-reference",
+        "id" : "Q66HA2"
+      } ]
+    } ],
+    "object-type" : "frame-collection",
+    "object-meta" : {
+      "processing-end" : "2022-10-06T17:07:02Z",
+      "doc-id" : "api34737",
+      "component-type" : "machine",
+      "component" : "Reach",
+      "processing-start" : "2022-10-06T17:06:58Z",
+      "object-type" : "meta-info",
+      "organization" : "UAZ"
+    }
+  },
+  "sentences" : {
+    "frames" : [ {
+      "text" : "Pan-cancer analysis of CREB3L1 as biomarker in the prediction of prognosis and immunotherapeutic efficacy. Background:  CAMP response element binding protein 3-like 1 (CREB3L1) has been indicated as a critical biomarker and can modulate multifaced behaviors of tumor cells in diverse cancers. However, a systematic assessment of CREB3L1 in pan-cancer is of absence, and the predictive value of CREB3L1 in cancer prognosis, the tumor immune microenvironment and the efficacy of immunotherapy remains unexplored.  Methods:  CREB3L1 expression in 33 different cancer types was investigated using RNAseq data from The Cancer Genome Atlas (TCGA) database. The characteristics of CREB3L1 alternations were illustrated in cBioPortal database. The prognostic and clinicopathological value of CREB3L1 was analyzed through clinical data downloaded from the TCGA database. The potential role of CREB3L1 in the tumor immune microenvironment was illustrated by utilizing CIBERSORT and ESTIMATE algorithms, and TISIDB online database. The associations between CREB3L1 expression and tumor mutation burden (TMB), and microsatellite instability (MSI) were assessed by spearman's rank correlation coefficient. Furthermore, Gene Set Enrichment Analysis (GSEA) was conducted to explore the potential biological functions and downstream pathways of CREB3L1 in different human cancers. The correlations of CREB3L1 expression with PD-1/PD-L1 inhibitors efficacy and drug sensitivity were also investigated.  Results:  The expression of CREB3L1 was abnormally high or low in several different cancer types, and was also strictly associated with the prognosis of cancer patients. CREB3L1 expression levels have a strong relationship with infiltrating immune cells, including regulatory T cells, CD8 +  T cells, macrophages, B naïve cells, dendritic cells and mast cells. CREB3L1 expression was also correlated with the expression of multiple immune-related biomolecules, TMB, and MSI in several cancers. Moreover, CREB3L1 had promising applications in predicting the immunotherapeutic benefits and drug sensitivity in cancer management.  Conclusions:  Our results highlight the value of CREB3L1 as a predictive biomarker for the prognosis and immunotherapy efficacy in multiple cancers, and CREB3L1 seems to play key roles in the tumor immune microenvironment, suggesting the role of CREB3L1 as a promising biomarker for predicting the prognosis and immune-related signatures in diverse cancers.",
+      "frame-id" : "pass-api34737-UAZ-r1-Reach",
+      "section-id" : "NoSection",
+      "frame-type" : "passage",
+      "is-title" : false,
+      "section-name" : "NoSection",
+      "object-type" : "frame",
+      "index" : "Reach",
+      "object-meta" : {
+        "component" : "nxml2fries",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "Pan-cancer analysis of CREB3L1 as biomarker in the prediction of prognosis and immunotherapeutic efficacy .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-0",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 106,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 0,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "Background :  CAMP response element binding protein 3 like 1 ( CREB3L1 ) has been indicated as a critical biomarker and can modulate multifaced behaviors of tumor cells in diverse cancers .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-1",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 292,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 107,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "However , a systematic assessment of CREB3L1 in pan-cancer is of absence , and the predictive value of CREB3L1 in cancer prognosis , the tumor immune microenvironment and the efficacy of immunotherapy remains unexplored .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-2",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 510,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 293,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "Methods :  CREB3L1 expression in 33 different cancer types was investigated using RNAseq data from The Cancer Genome Atlas ( TCGA ) database .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-3",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 650,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 512,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "The characteristics of CREB3L1 alternations were illustrated in cBioPortal database .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-4",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 735,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 651,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "The prognostic and clinicopathological value of CREB3L1 was analyzed through clinical data downloaded from the TCGA database .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-5",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 861,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 736,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "The potential role of CREB3L1 in the tumor immune microenvironment was illustrated by utilizing CIBERSORT and ESTIMATE algorithms , and TISIDB online database .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-6",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1020,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 862,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "The associations between CREB3L1 expression and tumor mutation burden ( TMB ) , and microsatellite instability ( MSI ) were assessed by spearman 's rank correlation coefficient .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-7",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1192,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1021,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "Furthermore , Gene Set Enrichment Analysis ( GSEA ) was conducted to explore the potential biological functions and downstream pathways of CREB3L1 in different human cancers .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-8",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1364,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1193,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "The correlations of CREB3L1 expression with PD-1 / PD-L1 inhibitors efficacy and drug sensitivity were also investigated .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-9",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1484,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1365,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "Results :  The expression of CREB3L1 was abnormally high or low in several different cancer types , and was also strictly associated with the prognosis of cancer patients .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-10",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1655,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1486,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "CREB3L1 expression levels have a strong relationship with infiltrating immune cells , including regulatory T cells , CD8 +  T cells , macrophages , B na ï ve cells , dendritic cells and mast cells .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-11",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1846,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1656,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "CREB3L1 expression was also correlated with the expression of multiple immune related biomolecules , TMB , and MSI in several cancers .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-12",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1979,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1847,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "Moreover , CREB3L1 had promising applications in predicting the immunotherapeutic benefits and drug sensitivity in cancer management .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-13",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 2112,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 1980,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "Conclusions :  Our results highlight the value of CREB3L1 as a predictive biomarker for the prognosis and immunotherapy efficacy in multiple cancers , and CREB3L1 seems to play key roles in the tumor immune microenvironment , suggesting the role of CREB3L1 as a promising biomarker for predicting the prognosis and immune related signatures in diverse cancers .",
+      "frame-id" : "sent-api34737-UAZ-r1-Reach-14",
+      "passage" : "pass-api34737-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 2471,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api34737-UAZ-r1-Reach",
+        "offset" : 2114,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    } ],
+    "object-type" : "frame-collection",
+    "object-meta" : {
+      "processing-end" : "2022-10-06T17:07:02Z",
+      "doc-id" : "api34737",
+      "component-type" : "machine",
+      "component" : "Reach",
+      "processing-start" : "2022-10-06T17:06:58Z",
+      "object-type" : "meta-info",
+      "organization" : "UAZ"
+    }
+  }
+}

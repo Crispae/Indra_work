@@ -1,0 +1,2825 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2022-10-06T17:00:38Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3108116" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3108116</identifier><datestamp>2011-06-08</datestamp><setSpec>ijerph</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="review-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Int J Environ Res Public Health</journal-id>
+      <journal-id journal-id-type="publisher-id">101238455</journal-id>
+      <journal-title-group>
+        <journal-title>International Journal of Environmental Research and Public Health</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1661-7827</issn>
+      <issn pub-type="epub">1660-4601</issn>
+      <publisher>
+        <publisher-name>Molecular Diversity Preservation International (MDPI)</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3108116</article-id>
+      <article-id pub-id-type="pmcid">PMC3108116</article-id>
+      <article-id pub-id-type="pmc-uid">3108116</article-id>
+      <article-id pub-id-type="pmid">21655126</article-id>
+      <article-id pub-id-type="doi">10.3390/ijerph8051388</article-id>
+      <article-id pub-id-type="publisher-id">ijerph-08-01388</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Review</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Biomarkers of Immunotoxicity for Environmental and Public Health Research</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Duramad</surname>
+            <given-names>Paurene</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-ijerph-08-01388">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Holland</surname>
+            <given-names>Nina T.</given-names>
+          </name>
+          <xref ref-type="aff" rid="af2-ijerph-08-01388">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="corresp" rid="c1-ijerph-08-01388">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-ijerph-08-01388"><label>1</label> Genentech, Inc., 1 DNA Way MS #59, South San Francisco, CA 94080, USA; E-Mail: <email>paurened@gene.com</email></aff>
+      <aff id="af2-ijerph-08-01388"><label>2</label> School of Public Health, University of California, Berkeley, 733 University Hall, Berkeley, CA 94720-7360, USA</aff>
+      <author-notes>
+        <corresp id="c1-ijerph-08-01388"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>ninah@berkeley.edu</email>.</corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <month>5</month>
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>6</day>
+        <month>5</month>
+        <year>2011</year>
+      </pub-date>
+      <volume>8</volume>
+      <issue>5</issue>
+      <fpage>1388</fpage>
+      <lpage>1401</lpage>
+      <history>
+        <date date-type="received">
+          <day>18</day>
+          <month>2</month>
+          <year>2011</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>26</day>
+          <month>3</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>25</day>
+          <month>4</month>
+          <year>2011</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2011 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2011</copyright-year>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0">
+          <license-p><!--CREATIVE COMMONS-->This article is an open-access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The immune response plays an important role in the pathophysiology of numerous diseases including asthma, autoimmunity and cancer. Application of biomarkers of immunotoxicity in epidemiology studies and human clinical trials can improve our understanding of the mechanisms that underlie the associations between environmental exposures and development of these immune-mediated diseases. Immunological biomarkers currently used in environmental health studies include detection of key components of innate and adaptive immunity (e.g., complement, immunoglobulin and cell subsets) as well as functional responses and activation of key immune cells. The use of high-throughput assays, including flow cytometry, Luminex, and Multi-spot cytokine detection methods can further provide quantitative analysis of immune effects. Due to the complexity and redundancy of the immune response, an integrated assessment of several components of the immune responses is needed. The rapidly expanding field of immunoinformatics will also aid in the synthesis of the vast amount of data being generated. This review discusses and provides examples of how the identification and development of immunological biomarkers for use in studies of environmental exposures and immune-mediated disorders can be achieved.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>asthma</kwd>
+        <kwd>COPD</kwd>
+        <kwd>biomarker validation</kwd>
+        <kwd>immunoinformatics</kwd>
+        <kwd>Luminex</kwd>
+        <kwd>immunome</kwd>
+        <kwd>immunotoxicity</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <label>1.</label>
+      <title>Introduction</title>
+      <p>The field of immunotoxicology has rapidly expanded and the main drivers for this development include recognition that environmental chemicals can alter immune response and function, increase in immune-mediated diseases (asthma, allergies, type 1 diabetes, rheumatoid arthritis, <italic>etc.</italic>) [<xref ref-type="bibr" rid="b1-ijerph-08-01388">1</xref>–<xref ref-type="bibr" rid="b4-ijerph-08-01388">4</xref>], and recognition that the immune system plays an important role in the pathophysiology of other disease states such as cancer [<xref ref-type="bibr" rid="b1-ijerph-08-01388">1</xref>] and atherosclerosis [<xref ref-type="bibr" rid="b2-ijerph-08-01388">2</xref>–<xref ref-type="bibr" rid="b4-ijerph-08-01388">4</xref>]. A pro-inflammatory immune response contributes to tissue and organ damage and is a common factor in many auto-immune diseases (e.g., Type 1 diabetes, rheumatoid arthritis, systemic lupus erythermatosus) and other disorders (e.g., promotion of atherosclerotic plaques in cardiovascular disease). Conversely, the lack of an appropriate inflammatory immune response contributes to lowered immune surveillance and the progression of tumors and cancers. A thorough understanding of the role of the immune response in the pathophysiology of these diseases is important to identify efficacious therapies and effective interventions. Further, the prevention of these diseases can be aided when specific and sensitive biomarkers, particularly ones that precede clinical onset of these diseases, are identified.</p>
+      <p>A biomarker is defined as “a characteristic that is evaluated as an indicator of normal biological or pathogenic processes, or a pharmacological response to a therapeutic intervention [<xref ref-type="bibr" rid="b5-ijerph-08-01388">5</xref>,<xref ref-type="bibr" rid="b6-ijerph-08-01388">6</xref>].” Biomarkers have been used for many years in toxicology and risk assessment and are often classified in terms of biomarkers of exposure, effect, and susceptibility [<xref ref-type="bibr" rid="b7-ijerph-08-01388">7</xref>]. However, categories based on intended roles and applications (e.g., disease, efficacy, mechanism, pharmacodynamic, and target) provide a useful classification system (see Baker <italic>et al.</italic> 2005 [<xref ref-type="bibr" rid="b8-ijerph-08-01388">8</xref>]). Disease-related biomarkers are mostly used for monitoring disease causality, progression, and susceptibility, and, to some extent, to identify strategies for patient stratification [<xref ref-type="bibr" rid="b9-ijerph-08-01388">9</xref>]. Both regulatory agencies and industry are keen to identify biomarkers that will aid in the early detection of toxicities [<xref ref-type="bibr" rid="b6-ijerph-08-01388">6</xref>,<xref ref-type="bibr" rid="b7-ijerph-08-01388">7</xref>,<xref ref-type="bibr" rid="b10-ijerph-08-01388">10</xref>,<xref ref-type="bibr" rid="b11-ijerph-08-01388">11</xref>].</p>
+    </sec>
+    <sec>
+      <label>2.</label>
+      <title>Key Considerations for Developing Biomarkers of Immunotoxicity</title>
+      <p>Development of disease biomarkers broadly involves the three stages of identification, validation, and application (see <xref ref-type="fig" rid="f1-ijerph-08-01388">Figure 1</xref>) and key elements of the process include (1) identifying biomarkers that can establish relevance (<italic>i.e.</italic>, related to the disease of exposure of interest), (2) strong, mechanistic molecular or biochemical basis in the pathophysiology of a disease, (3) sensitivity and specificity to treatment or exposure, (4) reliability (reproducibility, accuracy, precision, robustness), (5) practicality (level of assay invasiveness), and (6) simplicity in use and application [<xref ref-type="bibr" rid="b12-ijerph-08-01388">12</xref>,<xref ref-type="bibr" rid="b13-ijerph-08-01388">13</xref>]. Rarely does one biomarker meet all six requirements, however early consideration of these parameters in properly-designed and statistically powered studies can improve the final predictive value of biomarkers [<xref ref-type="bibr" rid="b14-ijerph-08-01388">14</xref>].</p>
+      <p>Since the immune system is composed of multiple organs (e.g., bone marrow, thymus, spleen and lymph nodes) and an appropriate immune response involves the interaction of multiple cell types (e.g., dendritic, B, and T-helper cells) and pleiotropic components (e.g., immunoglobulin and cytokines) it is a challenge to identify a key parameter to develop as a biomarker. Immunotoxic effects are commonly categorized into one of four categories: immunosuppression (reduction in efficacy or activation of immune system), immunostimulation (general enhanced immune response), hypersensitivity (specific immunostimulatory response mediated by immunoglobulins or T-cells), and autoimmunity (immune response against self). Immunotoxicity refers to any adverse effect on the structure or function of innate and adaptive immunity (see excellent references on this topic [<xref ref-type="bibr" rid="b15-ijerph-08-01388">15</xref>–<xref ref-type="bibr" rid="b18-ijerph-08-01388">18</xref>]).</p>
+      <p>The most common immune markers and sample types are summarized in <xref ref-type="table" rid="t1-ijerph-08-01388">Table 1</xref>. For example, cell-surface markers and antibodies are commonly used to evaluate the status of the immune system and can be detected using whole blood or serum and plasma by a multitude of methods. Although blood collection is an invasive procedure, subjects are accustomed to blood draws. However, if the same biomarker can be detected in samples collected using a non-invasive procedure, such as saliva or urine, these could then be prioritized for development, particularly for studies intended for pediatric populations. Efforts to develop non-invasive collection methods include analysis of immune components in saliva [<xref ref-type="bibr" rid="b19-ijerph-08-01388">19</xref>,<xref ref-type="bibr" rid="b20-ijerph-08-01388">20</xref>] or induced sputum [<xref ref-type="bibr" rid="b21-ijerph-08-01388">21</xref>] and exhaled breath condensate [<xref ref-type="bibr" rid="b22-ijerph-08-01388">22</xref>].</p>
+    </sec>
+    <sec sec-type="methods">
+      <label>3.</label>
+      <title>Sample Collection and Analytical Methods</title>
+      <p>Biomarker studies require processing and storage of numerous biological samples with the goals of obtaining a large amount of information and minimizing future research costs. An efficient study design includes provisions for processing of the original samples, such as separation of various components (e.g., serum, plasma, clot <italic>etc</italic>.), stabilization, cryopreservation, DNA isolation, and preparation of specimens for exposure assessment [<xref ref-type="bibr" rid="b23-ijerph-08-01388">23</xref>]. Standard operating procedures and quality control plans help to protect sample quality and to assure validity of the biomarker data. Data validity can also be affected by the sample type used. For example, proteomic profiles reportedly differ between serum and plasma samples [<xref ref-type="bibr" rid="b24-ijerph-08-01388">24</xref>] with less reproducibility observed with serum samples [<xref ref-type="bibr" rid="b25-ijerph-08-01388">25</xref>–<xref ref-type="bibr" rid="b27-ijerph-08-01388">27</xref>]. Cytokine levels may be lower in serum than in stimulated whole blood cultures [<xref ref-type="bibr" rid="b28-ijerph-08-01388">28</xref>,<xref ref-type="bibr" rid="b29-ijerph-08-01388">29</xref>]. The types of blood collection tubes (proteins adsorb to different materials) or anti-coagulants used (heparin and EDTA have different mechanisms for the prevention of clotting) also contribute to variability in the data obtained [<xref ref-type="bibr" rid="b30-ijerph-08-01388">30</xref>]. Also, the effect of transportation and storage of biological material must be examined very closely as the assay can be time- and temperature-sensitive. These factors, in addition to the assay and method variables listed above, can affect the precision of the measurement. Any significant contributor can then be controlled for in the large-scale epidemiology studies.</p>
+      <p>Employment of high-throughput methods in large-scale epidemiology studies provide a number of advantages for study designs that involve the collection and timely analysis of numerous clinical samples. Flow cytometry has emerged as a powerful tool for quantitative, single-cell analysis of both surface markers and intracellular antigens. This platform can now be used to measure intracellular signaling cascades and phosphorylation events and are employed extensively in high-throughput drug screening. Multiplex detection of cytokines allows the simultaneous measurement of multiple cytokines in a sample [<xref ref-type="bibr" rid="b31-ijerph-08-01388">31</xref>]. These platforms increase the efficiency of measuring the cytokines while reducing the serum sample volumes required for the testing, thus replacing the more traditional ELISA-based approach. Compared to Cytokine Bead Array (CBA), Luminex kits were found to be highly reproducible and reliable [<xref ref-type="bibr" rid="b32-ijerph-08-01388">32</xref>]. Increased standardization between laboratories represents another challenge in the application of immune biomarkers. However, this is one that can be remedied with increased collaboration and exchange of information during which protocols and methods are shared across laboratories and the reproducibility of immune marker detection can be determined before the samples are analyzed. Variability in parameters measured by flow cytometry attributable to subjective gating and/or determination of positive <italic>versus</italic> negative events can be reduced by distributing templates for acquisition and data analysis among the sites involved in analysis [<xref ref-type="bibr" rid="b33-ijerph-08-01388">33</xref>].</p>
+    </sec>
+    <sec>
+      <label>4.</label>
+      <title>Case Studies: Asthma and Chronic Obstructive Pulmonary Disease (COPD)</title>
+      <p>Application of these methods will be illustrated with examples from the field of asthma and chronic obstructive pulmonary disease (COPD), two of the most common disorders of the airways. In both cases, airway obstruction is the result of chronic inflammation and the infiltration of pro-inflammatory cells and mediators [<xref ref-type="bibr" rid="b34-ijerph-08-01388">34</xref>,<xref ref-type="bibr" rid="b35-ijerph-08-01388">35</xref>]. However, there are some noteworthy differences in the histopathology and the immune cells recruited for these two diseases [<xref ref-type="bibr" rid="b36-ijerph-08-01388">36</xref>]. The immune profiles of these diseases are summarized in <xref ref-type="table" rid="t2-ijerph-08-01388">Table 2</xref> and, although there is a strong association between these immunologic endpoints and disease status, the predictive value of these endpoints are still under investigation.</p>
+      <p>Bronchial biopsies from asthmatic patients reveal an infilitration of eosinophils, activated mucosal mast and T cells whereas in COPD eosinophils are largely absent but neutrophils are present in large numbers [<xref ref-type="bibr" rid="b46-ijerph-08-01388">46</xref>]. Also, in COPD, there is also an imbalance of the CD4+/CD8+ T-lymphocyte ratio in the lungs with CD8 predominating [<xref ref-type="bibr" rid="b43-ijerph-08-01388">43</xref>]. The inflammatory state of the lung is thought to be maintained through recruitment of macrophages and lymphocytes [<xref ref-type="bibr" rid="b34-ijerph-08-01388">34</xref>]. Increased expression of chemokine receptor CXCR3 on macrophages, and its ligand CXCL10 has been observed in patients with COPD [<xref ref-type="bibr" rid="b47-ijerph-08-01388">47</xref>]. In support of these findings, Costa <italic>et al</italic>. reported that in addition to CXCR3, chemokine receptors CXCL9, CXCL10, and CXCL11 were elevated in COPD, compared to non-smokers [<xref ref-type="bibr" rid="b42-ijerph-08-01388">42</xref>]. The levels of inflammatory cytokines (IL-6, IL-8, and TNF-α) are also elevated in COPD [<xref ref-type="bibr" rid="b44-ijerph-08-01388">44</xref>]. The cumulative data available for this disease is in part due to the extensive validation efforts by researchers to standardize sample collection methods and biomarker endpoints analysis [<xref ref-type="bibr" rid="b48-ijerph-08-01388">48</xref>].</p>
+      <p>Asthma is characterized by chronic inflammation in the airways and the presence of a predominance of CD4<sup>+</sup> T-helper 2 cells that secrete IL-4, IL-5, and IL-13 cytokines [<xref ref-type="bibr" rid="b49-ijerph-08-01388">49</xref>,<xref ref-type="bibr" rid="b50-ijerph-08-01388">50</xref>]. Th2 cells contribute to the immunopathogenesis of asthma by recruiting eosinophils and mast cells to the  airways [<xref ref-type="bibr" rid="b51-ijerph-08-01388">51</xref>,<xref ref-type="bibr" rid="b52-ijerph-08-01388">52</xref>] and by inducing B-cells to produce immunoglobulin E antibodies [<xref ref-type="bibr" rid="b53-ijerph-08-01388">53</xref>]. Increased levels of IFN-γ also have been reported in cases of severe asthma that could involve CD8<sup>+</sup> T cells [<xref ref-type="bibr" rid="b54-ijerph-08-01388">54</xref>]. In childhood, a major risk factor for the development of persistent asthma is atopy, which is defined by the presence of IgE to common inhalant allergens such as house dust mite [<xref ref-type="bibr" rid="b55-ijerph-08-01388">55</xref>]. Polymorphisms in CD14, a membrane receptor for bacterial components, have been linked to atopy [<xref ref-type="bibr" rid="b56-ijerph-08-01388">56</xref>]. In a comprehensive study by Heaton <italic>et al.</italic> [<xref ref-type="bibr" rid="b38-ijerph-08-01388">38</xref>], multiple immune markers were used to differentiate between various airway disease phenotypes in children. The authors reported that atopic children were more likely to have increased T-helper 2 (Th2) cytokines such as interleukin IL-4, IL-5, IL-13 whereas children with bronchial hyper-reactivity were more likely to have elevated IFN-γ, a Th1 cytokine [<xref ref-type="bibr" rid="b38-ijerph-08-01388">38</xref>]. The associations of Th1/Th2 are not consistent for all allergic disorders. For example, Kaneko <italic>et al.</italic> [<xref ref-type="bibr" rid="b57-ijerph-08-01388">57</xref>] reports that atopic dermatitis (AD) is associated with increased IL-4 Th2 cells, whereas Machura <italic>et al.</italic> [<xref ref-type="bibr" rid="b58-ijerph-08-01388">58</xref>] report that children with AD have significantly lower IL-4 Th2 cells and TNF-α Th1 cells and, therefore, no distinct bias towards Th1 or Th2 profiles.</p>
+      <p>Hollams <italic>et al.</italic> (2009) [<xref ref-type="bibr" rid="b59-ijerph-08-01388">59</xref>] sought to identify biomarkers associated with asthma phenotypes in teenagers, particularly atopic asthma, and to identify markers that aid in discriminating between atopic subjects at high <italic>versus</italic> low risk of asthma. In a cohort of 1380 14-year olds, clinical history as well as measurement of circulating and/or inflammatory markers (e.g., eosinophils, IgE, cytokine measurements) and <italic>in vitro</italic> innate and adaptive immune functions (e.g., house dust mite (HDM) T-cell responses) were evaluated. HDM-induced cytokine expression of IL-5, IL-9, IL-10, IL-13, and IFN-γ were significantly elevated in teens with asthma. Due to the redundancy of the immune system, for example IL-5, IL-9 and IL-13 contribute to the Th2 response and generation of IgE, therefore it is important to examine changes in several cytokines simultaneously rather than in isolation.</p>
+    </sec>
+    <sec sec-type="methods">
+      <label>5.</label>
+      <title>Emerging Methods</title>
+      <p>Advances in technology have introduced a variety of “omic” approaches to study human diseases and identify new biomarkers [<xref ref-type="bibr" rid="b60-ijerph-08-01388">60</xref>]. Interrogation of DNA (genomics) reflects genetic variability, mRNA (also genomics, sometimes called transcriptomics) displays changes in gene expression, proteins (proteomics) represent cellular and enzymatic changes (proteomics), and metabolites (metabonomics) highlight the physiological endpoints [<xref ref-type="bibr" rid="b9-ijerph-08-01388">9</xref>]. Toxicogenomics, the identification of specific gene expression profiles in biological systems associated with xenobiotic exposure, is increasingly being applied in immunotoxicity assessments [<xref ref-type="bibr" rid="b61-ijerph-08-01388">61</xref>]. For example, children with the TGF-β1-509TT genotype are at increased risk of asthma when they are exposed to maternal smoking <italic>in utero</italic> or to traffic-related emissions [<xref ref-type="bibr" rid="b62-ijerph-08-01388">62</xref>]. In immunotoxicology studies, microarrays have been used mainly in drug development to model pharmacodynamic effects of pharmaceuticals [<xref ref-type="bibr" rid="b63-ijerph-08-01388">63</xref>]. Multiparameter flow cytometry can also provide insight into cell maintenance and function; these include immunophenotyping, cell cycle and proliferation markers, indicators of cell injury and death, intracellular functional and biochemical analyses [<xref ref-type="bibr" rid="b64-ijerph-08-01388">64</xref>].</p>
+      <p>Immunomics involves the integration of the immune-related genomics and proteomics; this approach will help in the synthesis of vast, and sometimes redundant, information. It is of particular relevance to the field of environmental health research in which biological data is collected from subjects to evaluate the associations between environmental exposures (e.g., xenobiotics, allergens) and disease outcomes (e.g., asthma, COPD). For example, single nucleotide polymorphisms (SNPs) in immune-related genes suspected to be involved in disease pathology can be evaluated together with the protein expression of that gene. As it is unlikely that a complete data set of cytokines, for example, can be gathered from one study, inputing the limited data set into an interactive map of the cytokine pathway could prove useful for interpreting the net immune response. This would be particularly useful in instances where there is redundancy or overlap in the functions of cytokines and/or immune cells. Diaz-Ramos <italic>et al.</italic> (2010) [<xref ref-type="bibr" rid="b65-ijerph-08-01388">65</xref>] recently described the development of a comprehensive immunome that identified 1,015 genes expressed in immune cells or lymphoid tissues that correspond to proteins located on the plasma membrane. The identification of an immunomic profile will contribute to the compilation of “fingerprints” of dysregulated immunity; these will prove useful in the investigation of environmental health diseases and the process of linking environmental exposures to immune disorders.</p>
+    </sec>
+    <sec sec-type="discussion|conclusions">
+      <label>6.</label>
+      <title>Discussion and Conclusions</title>
+      <p>Immunoinformatics, including the software and hardware capable of synthesizing this information will enable researchers to visualize global changes in protein expression profiles relevant markers of interest [<xref ref-type="bibr" rid="b66-ijerph-08-01388">66</xref>–<xref ref-type="bibr" rid="b68-ijerph-08-01388">68</xref>]. Research areas of immunoinformatics include (1) allergy prediction, (2) understanding of immune-related genes, (3) study of genes and their expressions in healthy and diseased states, (4) T- and B- cell epitope prediction, and <italic>in silico</italic> vaccination [<xref ref-type="bibr" rid="b66-ijerph-08-01388">66</xref>]. Yan (2010) [<xref ref-type="bibr" rid="b69-ijerph-08-01388">69</xref>] has summarized the resources available on the genetic variation on the immune system. Integration of accumulating data will be an important step in identifying a useful immunologic marker. This can be accomplished by an integrated evaluation of multiple data sets obtained (biological, epidemiological, statistical, clinical trial) and evaluating the risk-benefit evidence. [<xref ref-type="bibr" rid="b70-ijerph-08-01388">70</xref>]. For example, the use of a scale to rate the level of evidence provided (study design, target outcome, and statistical evaluation), with level 1 the strongest evidence and 5 the weakest; 2 represents a potential surrogate marker. The criteria listed in this rating system were used to evaluate biomarkers for the immune disorder rheumatoid arthritis and the marker CD68, specific for macrophages, was designated a level three (epidemiology studies were not considered to be statistically powered), whereas the soluble marker C-reactive protein was deemed difficult to rank [<xref ref-type="bibr" rid="b71-ijerph-08-01388">71</xref>]. Weak clinical study design, including power and duration, was cited as the main limitation of this study [<xref ref-type="bibr" rid="b72-ijerph-08-01388">72</xref>]. Several factors that contribute to the variability of immune parameters are host factors and assay variation, and both of these can be addressed when designing the study. Host factors (e.g., sex, age, ethnicity/geography, nutrition) [<xref ref-type="bibr" rid="b73-ijerph-08-01388">73</xref>] and exposure factors (e.g., chemicals, bioaerosols, season, smoking, alcohol <italic>etc.</italic>) and disease states (e.g. leukemia, asthma, infections, <italic>etc.</italic>) also contribute to the variability of immune biomarkers [<xref ref-type="bibr" rid="b74-ijerph-08-01388">74</xref>,<xref ref-type="bibr" rid="b75-ijerph-08-01388">75</xref>]. For example, when lymphocyte subsets were analyzed in children who ranged in age from newborns to 18 years old, age was found to be an important factor in distributions of cell types [<xref ref-type="bibr" rid="b76-ijerph-08-01388">76</xref>]. Stress [<xref ref-type="bibr" rid="b77-ijerph-08-01388">77</xref>] and socioeconomic status [<xref ref-type="bibr" rid="b78-ijerph-08-01388">78</xref>] also impact the status of asthma in children and adolescents, identified by changes in cytokine biomarkers (IL-4, IL-5, and IFN-γ). In adults, alcohol intake has been associated with increased serum IgE levels [<xref ref-type="bibr" rid="b41-ijerph-08-01388">41</xref>]. The intra-individual variability should be low, compared to the inter-individual variability. Additionally, the effect of other host factors such as age, gender, stress, exercise, and smoking on biomarker measurement should also be well-characterized. The markers should be analytically detectable and reproducible in the same laboratory and in others.</p>
+      <p>In conclusion, the use of immune biomarkers in human clinical trials and molecular epidemiology of environmental health can facilitate a better understanding of the mechanisms that underlie associations between environmental exposures and immune-mediated disorders, such as cancer, asthma, and autoimmune disorders. An integrated approach that incorporates host and environmental factors will be particularly important in the development and application of immunologic biomarkers in public health research.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1-ijerph-08-01388">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Finn</surname>
+              <given-names>OJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Cancer immunology</article-title>
+          <source>N. Engl. J. Med</source>
+          <year>2008</year>
+          <volume>358</volume>
+          <fpage>2704</fpage>
+          <lpage>2715</lpage>
+          <pub-id pub-id-type="pmid">18565863</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b2-ijerph-08-01388">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hansson</surname>
+              <given-names>GK</given-names>
+            </name>
+            <name>
+              <surname>Nilsson</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Introduction: Atherosclerosis as inflammation: A controversial concept becomes accepted</article-title>
+          <source>J. Intern. Med</source>
+          <year>2008</year>
+          <volume>263</volume>
+          <fpage>462</fpage>
+          <lpage>463</lpage>
+          <pub-id pub-id-type="pmid">18410589</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b3-ijerph-08-01388">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Libby</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>The molecular mechanisms of the thrombotic complications of atherosclerosis</article-title>
+          <source>J. Intern. Med</source>
+          <year>2008</year>
+          <volume>263</volume>
+          <fpage>517</fpage>
+          <lpage>527</lpage>
+          <pub-id pub-id-type="pmid">18410595</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b4-ijerph-08-01388">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chou</surname>
+              <given-names>MY</given-names>
+            </name>
+            <name>
+              <surname>Hartvigsen</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Hansen</surname>
+              <given-names>LF</given-names>
+            </name>
+            <name>
+              <surname>Fogelstrand</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Shaw</surname>
+              <given-names>PX</given-names>
+            </name>
+            <name>
+              <surname>Boullier</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Binder</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Witztum</surname>
+              <given-names>JL</given-names>
+            </name>
+          </person-group>
+          <article-title>Oxidation-specific epitopes are important targets of innate immunity</article-title>
+          <source>J. Intern. Med</source>
+          <year>2008</year>
+          <volume>263</volume>
+          <fpage>479</fpage>
+          <lpage>488</lpage>
+          <pub-id pub-id-type="pmid">18410591</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b5-ijerph-08-01388">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <collab>Biomarkers Definitions Working Group</collab>
+            <name>
+              <surname>Atkinson</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Colburn</surname>
+              <given-names>WA</given-names>
+            </name>
+            <name>
+              <surname>DeGruttola</surname>
+              <given-names>VG</given-names>
+            </name>
+            <name>
+              <surname>DeMets</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Downing</surname>
+              <given-names>GJ</given-names>
+            </name>
+            <name>
+              <surname>Hoth</surname>
+              <given-names>DF</given-names>
+            </name>
+            <name>
+              <surname>Oates</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Peck</surname>
+              <given-names>CC</given-names>
+            </name>
+            <name>
+              <surname>Schooley</surname>
+              <given-names>RT</given-names>
+            </name>
+            <name>
+              <surname>Spilker</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Woodcock</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Zeger</surname>
+              <given-names>SL</given-names>
+            </name>
+          </person-group>
+          <article-title>Biomarkers and surrogate endpoints: Preferred definitions and conceptual framework</article-title>
+          <source>Clin. Pharm. Ther</source>
+          <year>2001</year>
+          <volume>69</volume>
+          <fpage>89</fpage>
+          <lpage>95</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b6-ijerph-08-01388">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Altar</surname>
+              <given-names>CA</given-names>
+            </name>
+          </person-group>
+          <article-title>The biomarkers consortium: On the critical path of drug discovery</article-title>
+          <source>Clin. Pharm. Ther</source>
+          <year>2008</year>
+          <volume>83</volume>
+          <fpage>361</fpage>
+          <lpage>364</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b7-ijerph-08-01388">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Swenberg</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Fryar-Tita</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Jeong</surname>
+              <given-names>YC</given-names>
+            </name>
+            <name>
+              <surname>Boysen</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Starr</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>VE</given-names>
+            </name>
+            <name>
+              <surname>Albertini</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Biomarkers in toxicology and risk assessment: Informing critical dose-response relationships</article-title>
+          <source>Chem. Res. Toxicol</source>
+          <year>2008</year>
+          <volume>21</volume>
+          <fpage>253</fpage>
+          <lpage>265</lpage>
+          <pub-id pub-id-type="pmid">18161944</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b8-ijerph-08-01388">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baker</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>In biomarkers we trust?</article-title>
+          <source>Nat. Biotechnol</source>
+          <year>2005</year>
+          <volume>23</volume>
+          <fpage>297</fpage>
+          <lpage>304</lpage>
+          <pub-id pub-id-type="pmid">15765081</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b9-ijerph-08-01388">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dieterle</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Marrer</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>New technologies around biomarkers and their interplay with drug development</article-title>
+          <source>Anal. Bioanal. Chem</source>
+          <year>2008</year>
+          <volume>390</volume>
+          <fpage>141</fpage>
+          <lpage>154</lpage>
+          <pub-id pub-id-type="pmid">17987283</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b10-ijerph-08-01388">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Banerji</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>de Bono</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Judson</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Kaye</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Biomarkers in early clinical trials: The committed and the skeptics</article-title>
+          <source>Clin Cancer Res</source>
+          <year>2008</year>
+          <volume>14</volume>
+          <fpage>2512:3</fpage>
+          <lpage>2512:4</lpage>
+          <pub-id pub-id-type="pmid">18413847</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b11-ijerph-08-01388">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bohler</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Nolting</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kamar</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Gurragchaa</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Reisener</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Glander</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Neumayer</surname>
+              <given-names>H-H</given-names>
+            </name>
+            <name>
+              <surname>Budde</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Klupp</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Validation of immunological biomarkers for the pharmacodynamic monitoring of immunosuppressive drugs in humans</article-title>
+          <source>Ther. Drug Monit</source>
+          <year>2007</year>
+          <volume>29</volume>
+          <fpage>77</fpage>
+          <lpage>86</lpage>
+          <pub-id pub-id-type="pmid">17304154</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b12-ijerph-08-01388">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Metcalf</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name>
+              <surname>Orloff</surname>
+              <given-names>KG</given-names>
+            </name>
+          </person-group>
+          <article-title>Biomarkers of exposure in community settings</article-title>
+          <source>J. Toxicol. Environ. Health</source>
+          <year>2004</year>
+          <volume>67</volume>
+          <fpage>715</fpage>
+          <lpage>726</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b13-ijerph-08-01388">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lesko</surname>
+              <given-names>LJ</given-names>
+            </name>
+            <name>
+              <surname>Atkinson</surname>
+              <given-names>AJ</given-names>
+              <suffix>Jr</suffix>
+            </name>
+          </person-group>
+          <article-title>Use of biomarkers and surrogate endpoints in drug development and regulatory decision making: Criteria, validation, strategies</article-title>
+          <source>Annu. Rev. Pharmacol. Toxicol</source>
+          <year>2001</year>
+          <volume>41</volume>
+          <fpage>347</fpage>
+          <lpage>366</lpage>
+          <pub-id pub-id-type="pmid">11264461</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b14-ijerph-08-01388">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Buyse</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Molenberghs</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Burzykowski</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Renard</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Geys</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>The validation of surrogate endpoints in meta-analyses of randomized experiments</article-title>
+          <source>Biostatistics</source>
+          <year>2000</year>
+          <volume>1</volume>
+          <fpage>49</fpage>
+          <lpage>67</lpage>
+          <pub-id pub-id-type="pmid">12933525</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b15-ijerph-08-01388">
+        <label>15.</label>
+        <element-citation publication-type="book">
+          <source>Immunotoxicology and Immunopharmacology</source>
+          <edition>3rd ed</edition>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Luebke</surname>
+              <given-names>RW</given-names>
+            </name>
+            <name>
+              <surname>House</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Kimber</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <publisher-name>CRC Press</publisher-name>
+          <publisher-loc>Boca Raton, FL, USA</publisher-loc>
+          <year>2007</year>
+        </element-citation>
+      </ref>
+      <ref id="b16-ijerph-08-01388">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Jong</surname>
+              <given-names>WH</given-names>
+            </name>
+            <name>
+              <surname>Van Loveren</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Screening of xenobiotics for direct immunotoxicity in an animal study</article-title>
+          <source>Methods</source>
+          <year>2007</year>
+          <volume>41</volume>
+          <fpage>3</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="pmid">17161297</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b17-ijerph-08-01388">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Descotes</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Methods of evaluating immunotoxicity</article-title>
+          <source>Expert Opin. Drug Metab. Toxicol</source>
+          <year>2006</year>
+          <volume>2</volume>
+          <fpage>249</fpage>
+          <lpage>259</lpage>
+          <pub-id pub-id-type="pmid">16866611</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b18-ijerph-08-01388">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Descotes</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Testud</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Toxicovigilance: A new approach for the hazard identification and risk assessment of toxicants in human beings</article-title>
+          <source>Toxicol. Appl. Pharmacol</source>
+          <year>2005</year>
+          <volume>207</volume>
+          <fpage>599</fpage>
+          <lpage>603</lpage>
+          <pub-id pub-id-type="pmid">15979670</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b19-ijerph-08-01388">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Winkler</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Hadnagy</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Idel</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytokines detectable in saliva of children as appropriate markers of local immunity of the oral cavity—An approach for the use in air pollution studies</article-title>
+          <source>Int. J. Hyg. Environ. Health</source>
+          <year>2001</year>
+          <volume>204</volume>
+          <fpage>181</fpage>
+          <lpage>184</lpage>
+          <pub-id pub-id-type="pmid">11759162</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b20-ijerph-08-01388">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soo-Quee Koh</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Choon-Huat Koh</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>The use of salivary biomarkers in occupational and environmental medicine</article-title>
+          <source>Occup. Environ. Med</source>
+          <year>2007</year>
+          <volume>64</volume>
+          <fpage>202</fpage>
+          <lpage>210</lpage>
+          <pub-id pub-id-type="pmid">17339296</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b21-ijerph-08-01388">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Simpson</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Wood</surname>
+              <given-names>LG</given-names>
+            </name>
+            <name>
+              <surname>Gibson</surname>
+              <given-names>PG</given-names>
+            </name>
+          </person-group>
+          <article-title>Inflammatory mediators in exhaled breath, induced sputum and saliva</article-title>
+          <source>Clin. Exp. Allergy</source>
+          <year>2005</year>
+          <volume>35</volume>
+          <fpage>1180</fpage>
+          <lpage>1185</lpage>
+          <pub-id pub-id-type="pmid">16164445</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b22-ijerph-08-01388">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Robroeks</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Jobsis</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Damoiseaux</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>Heijmans</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Rosias</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Hendriks</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Dompeling</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytokines in exhaled breath condensate of children with asthma and cystic fibrosis</article-title>
+          <source>Ann. Allergy Asthma Immunol</source>
+          <year>2006</year>
+          <volume>96</volume>
+          <fpage>349</fpage>
+          <lpage>355</lpage>
+          <pub-id pub-id-type="pmid">16498859</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b23-ijerph-08-01388">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holland</surname>
+              <given-names>NT</given-names>
+            </name>
+            <name>
+              <surname>Pfleger</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Berger</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Ho</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bastaki</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular epidemiology biomarkers—Sample collection and processing considerations</article-title>
+          <source>Toxicol. Appl. Pharmacol</source>
+          <year>2005</year>
+          <volume>206</volume>
+          <fpage>261</fpage>
+          <lpage>268</lpage>
+          <pub-id pub-id-type="pmid">15967217</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b24-ijerph-08-01388">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsieh</surname>
+              <given-names>SY</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>RK</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>YH</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>HL</given-names>
+            </name>
+          </person-group>
+          <article-title>Systematical evaluation of the effects of sample collection procedures on low-molecular-weight serum/plasma proteome profiling</article-title>
+          <source>Proteomics</source>
+          <year>2006</year>
+          <volume>6</volume>
+          <fpage>3189</fpage>
+          <lpage>3198</lpage>
+          <pub-id pub-id-type="pmid">16586434</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b25-ijerph-08-01388">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baggerly</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Morris</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Coombes</surname>
+              <given-names>KR</given-names>
+            </name>
+          </person-group>
+          <article-title>Reproducibility of SELDI-TOF protein patterns in serum: Comparing datasets from different experiments</article-title>
+          <source>Bioinformatics</source>
+          <year>2004</year>
+          <volume>20</volume>
+          <fpage>777</fpage>
+          <lpage>785</lpage>
+          <pub-id pub-id-type="pmid">14751995</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b26-ijerph-08-01388">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Diamandis</surname>
+              <given-names>EP</given-names>
+            </name>
+          </person-group>
+          <article-title>Point: Proteomic patterns in biological fluids: Do they represent the future of cancer diagnostics?</article-title>
+          <source>Clin. Chem</source>
+          <year>2003</year>
+          <volume>49</volume>
+          <fpage>1272</fpage>
+          <lpage>1275</lpage>
+          <pub-id pub-id-type="pmid">12881441</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b27-ijerph-08-01388">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Diamandis</surname>
+              <given-names>EP</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of serum proteomic patterns for early cancer diagnosis: Drawing attention to potential problems</article-title>
+          <source>J. Nat. Cancer Inst</source>
+          <year>2004</year>
+          <volume>96</volume>
+          <fpage>353</fpage>
+          <lpage>356</lpage>
+          <pub-id pub-id-type="pmid">14996856</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b28-ijerph-08-01388">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jason</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Larned</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Single-cell cytokine profiles in normal humans: Comparison of flow cytometric reagents and stimulation protocols</article-title>
+          <source>J. Immunol. Method</source>
+          <year>1997</year>
+          <volume>207</volume>
+          <fpage>13</fpage>
+          <lpage>22</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b29-ijerph-08-01388">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duramad</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>McMahon</surname>
+              <given-names>CW</given-names>
+            </name>
+            <name>
+              <surname>Hubbard</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Eskenazi</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Holland</surname>
+              <given-names>NT</given-names>
+            </name>
+          </person-group>
+          <article-title>Flow cytometric detection of intracellular TH1/TH2 cytokines using whole blood: Validation of immunologic biomarker for use in epidemiologic studies</article-title>
+          <source>Cancer Epidemiol. Biomarkers Prev</source>
+          <year>2004</year>
+          <volume>13</volume>
+          <fpage>1452</fpage>
+          <lpage>1458</lpage>
+          <pub-id pub-id-type="pmid">15342445</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b30-ijerph-08-01388">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Luque-Garcia</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Neubert</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Sample preparation for serum/plasma profiling and biomarker identification by mass spectrometry</article-title>
+          <source>J. Chromatogr</source>
+          <year>2007</year>
+          <volume>1153</volume>
+          <fpage>259</fpage>
+          <lpage>276</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b31-ijerph-08-01388">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Richens</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Urbanowicz</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Metcalf</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Corne</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>O’Shea</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Fairclough</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantitative validation and comparison of multiplex cytokine kits</article-title>
+          <source>J. Biomol. Screen</source>
+          <year>2010</year>
+          <volume>15</volume>
+          <fpage>562</fpage>
+          <lpage>568</lpage>
+          <pub-id pub-id-type="pmid">20176857</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b32-ijerph-08-01388">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lash</surname>
+              <given-names>GE</given-names>
+            </name>
+            <name>
+              <surname>Pinto</surname>
+              <given-names>LA</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiplex cytokine analysis technologies</article-title>
+          <source>Expert Rev. Vaccines</source>
+          <year>2010</year>
+          <volume>9</volume>
+          <fpage>1231</fpage>
+          <lpage>1237</lpage>
+          <pub-id pub-id-type="pmid">20923272</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b33-ijerph-08-01388">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maecker</surname>
+              <given-names>HT</given-names>
+            </name>
+            <name>
+              <surname>McCoy</surname>
+              <given-names>JP</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <name>
+              <surname>Amos</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Elliott</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Gaigalas</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Aranda</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Banchereau</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Boshoff</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Braun</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A model for harmonizing flow cytometry in clinical trials</article-title>
+          <source>Nat. Immunol</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>975</fpage>
+          <lpage>978</lpage>
+          <pub-id pub-id-type="pmid">20959798</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b34-ijerph-08-01388">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cosio</surname>
+              <given-names>MG</given-names>
+            </name>
+            <name>
+              <surname>Majo</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Cosio</surname>
+              <given-names>MG</given-names>
+            </name>
+          </person-group>
+          <article-title>Inflammation of the airways and lung parenchyma in COPD: Role of T cells</article-title>
+          <source>Chest</source>
+          <year>2002</year>
+          <volume>121</volume>
+          <fpage>160S</fpage>
+          <lpage>165S</lpage>
+          <pub-id pub-id-type="pmid">12010846</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b35-ijerph-08-01388">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hogg</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <article-title>Infection and COPD</article-title>
+          <source>Exp. Lung Res</source>
+          <year>2005</year>
+          <volume>31</volume>
+          <fpage>72</fpage>
+          <lpage>73</lpage>
+          <pub-id pub-id-type="pmid">16395863</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b36-ijerph-08-01388">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baraldo</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Lokar</surname>
+              <given-names>OK</given-names>
+            </name>
+            <name>
+              <surname>Turato</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Zuin</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Saetta</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of lymphocytes in the pathogenesis of asthma and COPD</article-title>
+          <source>Curr. Med. Chem</source>
+          <year>2007</year>
+          <volume>14</volume>
+          <fpage>2250</fpage>
+          <lpage>2256</lpage>
+          <pub-id pub-id-type="pmid">17896974</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b37-ijerph-08-01388">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bottema</surname>
+              <given-names>RW</given-names>
+            </name>
+            <name>
+              <surname>Reijmerink</surname>
+              <given-names>NE</given-names>
+            </name>
+            <name>
+              <surname>Kerkhof</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Koppelman</surname>
+              <given-names>GH</given-names>
+            </name>
+            <name>
+              <surname>Stelma</surname>
+              <given-names>FF</given-names>
+            </name>
+            <name>
+              <surname>Gerritsen</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Thijs</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Brunekreef</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>van Schayck</surname>
+              <given-names>CP</given-names>
+            </name>
+            <name>
+              <surname>Postma</surname>
+              <given-names>DS</given-names>
+            </name>
+          </person-group>
+          <article-title>IL13, CD14, pet and tobacco smoke influence atopy in 3 Dutch cohorts: The allergenic study</article-title>
+          <source>Eur. Resp. J</source>
+          <year>2008</year>
+          <volume>32</volume>
+          <fpage>593</fpage>
+          <lpage>602</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b38-ijerph-08-01388">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heaton</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Rowe</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Turner</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Aalberse</surname>
+              <given-names>RC</given-names>
+            </name>
+            <name>
+              <surname>de Klerk</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Suriyaarachchi</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Serralha</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Holt</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Hollams</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Yerkovich</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>An immunoepidemiological approach to asthma: Identification of <italic>in vitro</italic> T-cell response patterns associated with different wheezing phenotypes in children</article-title>
+          <source>Lancet</source>
+          <year>2005</year>
+          <volume>365</volume>
+          <fpage>142</fpage>
+          <lpage>149</lpage>
+          <pub-id pub-id-type="pmid">15639296</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b39-ijerph-08-01388">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feleszko</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Zawadzka-Krajewska</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Matysiak</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Lewandowska</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Peradzyńska</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Dinh</surname>
+              <given-names>QT</given-names>
+            </name>
+            <name>
+              <surname>Hamelmann</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Groneberg</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Kulus</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Parental tobacco smoking is associated with augmented IL-13 secretion in children with allergic asthma</article-title>
+          <source>J. Allerg. Clin. Immunol</source>
+          <year>2006</year>
+          <volume>117</volume>
+          <fpage>97</fpage>
+          <lpage>102</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b40-ijerph-08-01388">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duramad</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Harley</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Lipsett</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bradman</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Eskenazi</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Holland</surname>
+              <given-names>NT</given-names>
+            </name>
+            <name>
+              <surname>Tager</surname>
+              <given-names>IB</given-names>
+            </name>
+          </person-group>
+          <article-title>|Early environmental exposures and intracellular Th1/Th2 cytokine profiles in 24-month-old children living in an agricultural area</article-title>
+          <source>Environ. Health Perspect</source>
+          <year>2006</year>
+          <volume>114</volume>
+          <fpage>1916</fpage>
+          <lpage>1922</lpage>
+          <pub-id pub-id-type="pmid">17185285</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b41-ijerph-08-01388">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Friedrich</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Husemoen</surname>
+              <given-names>LL</given-names>
+            </name>
+            <name>
+              <surname>Petersmann</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Nauck</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Völzke</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Linneberg</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>The association between alcohol consumption and biomarkers of alcohol exposure with total serum immunoglobulin E levels</article-title>
+          <source>Alcohol. Clin. Exp. Res</source>
+          <year>2008</year>
+          <volume>32</volume>
+          <fpage>983</fpage>
+          <lpage>990</lpage>
+          <pub-id pub-id-type="pmid">18445104</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b42-ijerph-08-01388">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Costa</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Rufino</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Traves</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Silva</surname>
+              <given-names>JRL</given-names>
+            </name>
+            <name>
+              <surname>Barnes</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>Donnelly</surname>
+              <given-names>LE</given-names>
+            </name>
+          </person-group>
+          <article-title>CXCR3 and CCR5 chemokines in induced sputum from patients with COPD</article-title>
+          <source>Chest</source>
+          <year>2008</year>
+          <volume>133</volume>
+          <fpage>26</fpage>
+          <lpage>33</lpage>
+          <pub-id pub-id-type="pmid">17925429</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b43-ijerph-08-01388">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smyth</surname>
+              <given-names>LJ</given-names>
+            </name>
+            <name>
+              <surname>Starkey</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Vestbo</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>CD4-regulatory cells in COPD patients</article-title>
+          <source>Chest</source>
+          <year>2007</year>
+          <volume>132</volume>
+          <fpage>156</fpage>
+          <lpage>163</lpage>
+          <pub-id pub-id-type="pmid">17505034</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b44-ijerph-08-01388">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hacievliyagil</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Gunen</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Mutlu</surname>
+              <given-names>LC</given-names>
+            </name>
+            <name>
+              <surname>Karabulut</surname>
+              <given-names>AB</given-names>
+            </name>
+            <name>
+              <surname>Temel</surname>
+              <given-names>İ</given-names>
+            </name>
+          </person-group>
+          <article-title>Association between cytokines in induced sputum and severity of chronic obstructive pulmonary disease</article-title>
+          <source>Res. Med</source>
+          <year>2006</year>
+          <volume>100</volume>
+          <fpage>846</fpage>
+          <lpage>854</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b45-ijerph-08-01388">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Niemela</surname>
+              <given-names>O</given-names>
+            </name>
+          </person-group>
+          <article-title>Biomarkers in alcoholism</article-title>
+          <source>Clin. Chim. Acta</source>
+          <year>2007</year>
+          <volume>377</volume>
+          <fpage>39</fpage>
+          <lpage>49</lpage>
+          <pub-id pub-id-type="pmid">17045579</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b46-ijerph-08-01388">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barnes</surname>
+              <given-names>PJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Immunology of asthma and chronic obstructive pulmonary disease</article-title>
+          <source>Nat. Rev</source>
+          <year>2008</year>
+          <volume>8</volume>
+          <fpage>183</fpage>
+          <lpage>192</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b47-ijerph-08-01388">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saetta</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Mariani</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Panina-Bordignon</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Turato</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Buonsanti</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Baraldo</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bellettato</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Papi</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Corbetta</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Zuin</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Increased expression of the chemokine receptor CXCR3 and its ligand CXCL10 in peripheral airways of smokers with chronic obstructive pulmonary disease</article-title>
+          <source>Amer. J. Respir. Crit. Care Med</source>
+          <year>2002</year>
+          <volume>165</volume>
+          <fpage>1404</fpage>
+          <lpage>1409</lpage>
+          <pub-id pub-id-type="pmid">12016104</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b48-ijerph-08-01388">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Snell</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Newbold</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>The clinical utility of biomarkers in asthma and COPD</article-title>
+          <source>Curr. Opin. Pharmacol</source>
+          <year>2008</year>
+          <volume>8</volume>
+          <fpage>222</fpage>
+          <lpage>235</lpage>
+          <pub-id pub-id-type="pmid">18468485</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b49-ijerph-08-01388">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chung</surname>
+              <given-names>KF</given-names>
+            </name>
+            <name>
+              <surname>Barnes</surname>
+              <given-names>PJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytokines in asthma</article-title>
+          <source>Thorax</source>
+          <year>1999</year>
+          <volume>54</volume>
+          <fpage>825</fpage>
+          <lpage>857</lpage>
+          <pub-id pub-id-type="pmid">10456976</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b50-ijerph-08-01388">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ngoc</surname>
+              <given-names>PL</given-names>
+            </name>
+            <name>
+              <surname>Gold</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Tzianabos</surname>
+              <given-names>AO</given-names>
+            </name>
+            <name>
+              <surname>Weiss</surname>
+              <given-names>ST</given-names>
+            </name>
+            <name>
+              <surname>Celedón</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytokines, allergy, and asthma</article-title>
+          <source>Curr. Opin. Allergy Clin. Immunol</source>
+          <year>2005</year>
+          <volume>5</volume>
+          <fpage>161</fpage>
+          <lpage>166</lpage>
+          <pub-id pub-id-type="pmid">15764907</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b51-ijerph-08-01388">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Macfarlane</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Kon</surname>
+              <given-names>OM</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Zeibecoglou</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Khan</surname>
+              <given-names>LN</given-names>
+            </name>
+            <name>
+              <surname>Barata</surname>
+              <given-names>LT</given-names>
+            </name>
+            <name>
+              <surname>McEuen</surname>
+              <given-names>AR</given-names>
+            </name>
+            <name>
+              <surname>Buckley</surname>
+              <given-names>MG</given-names>
+            </name>
+            <name>
+              <surname>Walls</surname>
+              <given-names>AF</given-names>
+            </name>
+            <name>
+              <surname>Meng</surname>
+              <given-names>Q</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Basophils, eosinophils, and mast cells in atopic and nonatopic asthma and in late-phase allergic reactions in the lung and skin</article-title>
+          <source>J. Allerg. Clin. Immunol</source>
+          <year>2000</year>
+          <volume>105</volume>
+          <fpage>99</fpage>
+          <lpage>107</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b52-ijerph-08-01388">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marone</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Triggiani</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>de Paulis</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Mast cells and basophils: Friends as well as foes in bronchial asthma?</article-title>
+          <source>Trends Immunol</source>
+          <year>2005</year>
+          <volume>26</volume>
+          <fpage>25</fpage>
+          <lpage>31</lpage>
+          <pub-id pub-id-type="pmid">15629406</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b53-ijerph-08-01388">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yssel</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Abbal</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Pene</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Bousquet</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of IgE in asthma</article-title>
+          <source>Clin Exp Allergy</source>
+          <year>1998</year>
+          <volume>28</volume>
+          <issue>Suppl. 5</issue>
+          <fpage>104</fpage>
+          <lpage>109</lpage>
+          <pub-id pub-id-type="pmid">9988455</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b54-ijerph-08-01388">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brown</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Warke</surname>
+              <given-names>TJ</given-names>
+            </name>
+            <name>
+              <surname>Shields</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Ennis</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>T cell cytokine profiles in childhood asthma</article-title>
+          <source>Thorax</source>
+          <year>2003</year>
+          <volume>58</volume>
+          <fpage>311</fpage>
+          <lpage>316</lpage>
+          <pub-id pub-id-type="pmid">12668793</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b55-ijerph-08-01388">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yeatts</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Sly</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Shore</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Weiss</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Martinez</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Geller</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bromberg</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Enright</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Koren</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Weissman</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Selgrade</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>A brief targeted review of susceptibility factors, environmental exposures, asthma incidence, and recommendations for future asthma incidence research</article-title>
+          <source>Environ. Health Perspect</source>
+          <year>2006</year>
+          <volume>114</volume>
+          <fpage>634</fpage>
+          <lpage>640</lpage>
+          <pub-id pub-id-type="pmid">16581558</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b56-ijerph-08-01388">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baldini</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lohman</surname>
+              <given-names>IC</given-names>
+            </name>
+            <name>
+              <surname>Halonen</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Erickson</surname>
+              <given-names>RP</given-names>
+            </name>
+            <name>
+              <surname>HoltM</surname>
+              <given-names>PG</given-names>
+            </name>
+            <name>
+              <surname>Martinez</surname>
+              <given-names>FD</given-names>
+            </name>
+          </person-group>
+          <article-title>A Polymorphism* in the 5’ flanking region of the CD14 gene is associated with circulating soluble CD14 levels and with total serum immunoglobulin E</article-title>
+          <source>Am. J. Respir. Cell Mol. Biol</source>
+          <year>1999</year>
+          <volume>20</volume>
+          <fpage>976</fpage>
+          <lpage>983</lpage>
+          <pub-id pub-id-type="pmid">10226067</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b57-ijerph-08-01388">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaneko</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Matsui</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Asano</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Teramoto</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Aoki</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kawamoto</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Lian</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Kasahara</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kondo</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Suppression of IFN-gamma production in atopic group at the acute phase of RSV infection</article-title>
+          <source>Pediatr. Allergy Immunol</source>
+          <year>2006</year>
+          <volume>17</volume>
+          <fpage>370</fpage>
+          <lpage>375</lpage>
+          <pub-id pub-id-type="pmid">16846456</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b58-ijerph-08-01388">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Machura</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Mazur</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Kwiecien</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Karczewska</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Intracellular production of IL-2, IL-4, IFN-gamma, and TNF-alpha by peripheral blood CD3+ and CD4+ T cells in children with atopic dermatitis</article-title>
+          <source>Eur. J. Pediatr</source>
+          <year>2007</year>
+          <volume>166</volume>
+          <fpage>789</fpage>
+          <lpage>795</lpage>
+          <pub-id pub-id-type="pmid">17120040</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b59-ijerph-08-01388">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hollams</surname>
+              <given-names>EM</given-names>
+            </name>
+            <name>
+              <surname>Deverell</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Serralha</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Suriyaarachchi</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Parsons</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>de Klerk</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Holt</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Ladyman</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Sadowska</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Elucidation of asthma phenotypes in atopic teenagers through parallel immunophenotypic and clinical profiling</article-title>
+          <source>J. Allerg. Clin. Immunol</source>
+          <year>2009</year>
+          <volume>124</volume>
+          <fpage>463</fpage>
+          <lpage>470</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b60-ijerph-08-01388">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Benninghoff</surname>
+              <given-names>AD</given-names>
+            </name>
+          </person-group>
+          <article-title>Toxicoproteomics—The next step in the evolution of environmental biomarkers</article-title>
+          <source>Toxicol. Sci</source>
+          <year>2007</year>
+          <volume>95</volume>
+          <fpage>1</fpage>
+          <lpage>4</lpage>
+          <pub-id pub-id-type="pmid">17209232</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b61-ijerph-08-01388">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baken</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Vandebriel</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Pennings</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Kleinjansa</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>van Loveren</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Toxicogenomics in the assessment of immunotoxicity</article-title>
+          <source>Methods</source>
+          <year>2007</year>
+          <volume>41</volume>
+          <fpage>132</fpage>
+          <lpage>141</lpage>
+          <pub-id pub-id-type="pmid">17161310</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b62-ijerph-08-01388">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salam</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Gauderman</surname>
+              <given-names>WJ</given-names>
+            </name>
+            <name>
+              <surname>McConnell</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>P-C</given-names>
+            </name>
+            <name>
+              <surname>Gilliland</surname>
+              <given-names>FD</given-names>
+            </name>
+          </person-group>
+          <article-title>Transforming growth factor-β1 C-509T polymorphism, oxidant stress, and early-onset childhood asthma</article-title>
+          <source>Amer. J. Respir. Crit. Care Med</source>
+          <year>2007</year>
+          <volume>176</volume>
+          <fpage>1192</fpage>
+          <lpage>1199</lpage>
+          <pub-id pub-id-type="pmid">17673695</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b63-ijerph-08-01388">
+        <label>63.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pruett</surname>
+              <given-names>SB</given-names>
+            </name>
+            <name>
+              <surname>Holladay</surname>
+              <given-names>SD</given-names>
+            </name>
+            <name>
+              <surname>Prater</surname>
+              <given-names>MR</given-names>
+            </name>
+            <name>
+              <surname>Yucesoy</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Luster</surname>
+              <given-names>MI</given-names>
+            </name>
+          </person-group>
+          <article-title>The promise of genomics and proteomics in immunotoxicology and immunopharmacology</article-title>
+          <source>Immunotoxicology and Immunopharmacology</source>
+          <edition>3rd ed</edition>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Luebke</surname>
+              <given-names>RW</given-names>
+            </name>
+            <name>
+              <surname>House</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Kimber</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <publisher-name>CRC Press</publisher-name>
+          <publisher-loc>Boca Raton, FL, USA</publisher-loc>
+          <year>2007</year>
+          <fpage>79</fpage>
+          <lpage>95</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b64-ijerph-08-01388">
+        <label>64.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burns-Naas</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Kerkvliet</surname>
+              <given-names>NI</given-names>
+            </name>
+            <name>
+              <surname>Laskin</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Bortner</surname>
+              <given-names>CD</given-names>
+            </name>
+            <name>
+              <surname>Burchiel</surname>
+              <given-names>SW</given-names>
+            </name>
+          </person-group>
+          <article-title>The use of multiparameter flow cytometry in immunotoxicology and immunopharmacology</article-title>
+          <source>Immunotoxicology and Immunopharmacology</source>
+          <edition>3rd ed</edition>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Luebke</surname>
+              <given-names>RW</given-names>
+            </name>
+            <name>
+              <surname>House</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Kimber</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <publisher-name>CRC Press</publisher-name>
+          <publisher-loc>Boca Raton, FL, USA</publisher-loc>
+          <year>2007</year>
+          <fpage>97</fpage>
+          <lpage>122</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b65-ijerph-08-01388">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Diaz-Ramos</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Engel</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Bastos</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Towards a comprehensive human cell-surface immunome database</article-title>
+          <source>Immunol. Lett</source>
+          <year>2010</year>
+          <volume>134</volume>
+          <fpage>183</fpage>
+          <lpage>187</lpage>
+          <pub-id pub-id-type="pmid">20932860</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b66-ijerph-08-01388">
+        <label>66.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tomar</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>De</surname>
+              <given-names>RK</given-names>
+            </name>
+          </person-group>
+          <article-title>Immunoinformatics: An integrated scenario</article-title>
+          <source>Immunology</source>
+          <year>2010</year>
+          <volume>131</volume>
+          <fpage>153</fpage>
+          <lpage>168</lpage>
+          <pub-id pub-id-type="pmid">20722763</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b67-ijerph-08-01388">
+        <label>67.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Korber</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>LaBute</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Yusim</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Immunoinformatics comes of age</article-title>
+          <source>PLoS Comput Biol</source>
+          <year>2006</year>
+          <volume>2</volume>
+          <fpage>e71:0484</fpage>
+          <lpage>e71:0494</lpage>
+          <pub-id pub-id-type="pmid">16846250</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b68-ijerph-08-01388">
+        <label>68.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tong</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Ren</surname>
+              <given-names>EC</given-names>
+            </name>
+          </person-group>
+          <article-title>Immunoinformatics: Current trends and future directions</article-title>
+          <source>Drug Discov. Today</source>
+          <year>2009</year>
+          <volume>14</volume>
+          <fpage>684</fpage>
+          <lpage>689</lpage>
+          <pub-id pub-id-type="pmid">19379830</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b69-ijerph-08-01388">
+        <label>69.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yan</surname>
+              <given-names>Q</given-names>
+            </name>
+          </person-group>
+          <article-title>Immunoinformatics and systems biology methods for personalized medicine</article-title>
+          <source>Meth. Mol. B</source>
+          <year>2010</year>
+          <volume>662</volume>
+          <fpage>203</fpage>
+          <lpage>220</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b70-ijerph-08-01388">
+        <label>70.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lassere</surname>
+              <given-names>MN</given-names>
+            </name>
+          </person-group>
+          <article-title>The biomarker-surrogacy evaluation schema: A review of the biomarker-surrogate literature and a proposal for a criterion-based, quantitative, multidimensional hierarchical levels of evidence schema for evaluating the status of biomarkers as surrogate endpoints</article-title>
+          <source>Stat. Methods Med. Res</source>
+          <year>2008</year>
+          <volume>17</volume>
+          <fpage>303</fpage>
+          <lpage>340</lpage>
+          <pub-id pub-id-type="pmid">17925313</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b71-ijerph-08-01388">
+        <label>71.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maksymowych</surname>
+              <given-names>WP</given-names>
+            </name>
+            <name>
+              <surname>Landewe</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Boers</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Garnero</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Geusens</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>El-Gabalawy</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Heinegard</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Kraus</surname>
+              <given-names>VB</given-names>
+            </name>
+            <name>
+              <surname>Krause</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Lohmander</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Development of draft validation criteria for a soluble biomarker to be regarded as a valid biomarker reflecting structural damage endpoints in rheumatoid arthritis and spondyloarthritis clinical trials</article-title>
+          <source>J. Rheumatol</source>
+          <year>2007</year>
+          <volume>34</volume>
+          <fpage>634</fpage>
+          <lpage>640</lpage>
+          <pub-id pub-id-type="pmid">17343311</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b72-ijerph-08-01388">
+        <label>72.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lassere</surname>
+              <given-names>MN</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>KR</given-names>
+            </name>
+            <name>
+              <surname>Boers</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Tugwell</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Brooks</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Simon</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Strand</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Conaghan</surname>
+              <given-names>PG</given-names>
+            </name>
+            <name>
+              <surname>Ostergaard</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Maksymowych</surname>
+              <given-names>WP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Definitions and validation criteria for biomarkers and surrogate endpoints: Development and testing of a quantitative hierarchical levels of evidence schema</article-title>
+          <source>J. Rheumatol</source>
+          <year>2007</year>
+          <volume>34</volume>
+          <fpage>607</fpage>
+          <lpage>615</lpage>
+          <pub-id pub-id-type="pmid">17343307</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b73-ijerph-08-01388">
+        <label>73.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kant</surname>
+              <given-names>AK</given-names>
+            </name>
+            <name>
+              <surname>Graubard</surname>
+              <given-names>BI</given-names>
+            </name>
+          </person-group>
+          <article-title>Ethnic and socioeconomic differences in variability in nutritional biomarkers</article-title>
+          <source>Amer. J. Clin. Nutr</source>
+          <year>2008</year>
+          <volume>87</volume>
+          <fpage>1464</fpage>
+          <lpage>1471</lpage>
+          <pub-id pub-id-type="pmid">18469272</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b74-ijerph-08-01388">
+        <label>74.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duramad</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Tager</surname>
+              <given-names>IB</given-names>
+            </name>
+            <name>
+              <surname>Holland</surname>
+              <given-names>NT</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytokines and other immunological biomarkers in children’s environmental health studies</article-title>
+          <source>Toxicol. lett</source>
+          <year>2007</year>
+          <volume>172</volume>
+          <fpage>48</fpage>
+          <lpage>59</lpage>
+          <pub-id pub-id-type="pmid">17624696</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b75-ijerph-08-01388">
+        <label>75.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Colosio</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Birindelli</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Corsini</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Galli</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name>
+              <surname>Maroni</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Low level exposure to chemicals and immune system</article-title>
+          <source>Toxicol. Appl. Pharmacol</source>
+          <year>2005</year>
+          <volume>207</volume>
+          <fpage>320</fpage>
+          <lpage>328</lpage>
+          <pub-id pub-id-type="pmid">15992843</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b76-ijerph-08-01388">
+        <label>76.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shearer</surname>
+              <given-names>WT</given-names>
+            </name>
+            <name>
+              <surname>Rosenblatt</surname>
+              <given-names>HM</given-names>
+            </name>
+            <name>
+              <surname>Gelman</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Oyomopito</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Plaeger</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Stiehm</surname>
+              <given-names>ER</given-names>
+            </name>
+            <name>
+              <surname>Wara</surname>
+              <given-names>DW</given-names>
+            </name>
+            <name>
+              <surname>Douglas</surname>
+              <given-names>SD</given-names>
+            </name>
+            <name>
+              <surname>Luzuriaga</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>McFarland</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Lymphocyte subsets in healthy children from birth through 18 years of age: The pediatric AIDS clinical trials group P1009 study</article-title>
+          <source>J. Allerg. Clin. Immunol</source>
+          <year>2003</year>
+          <volume>112</volume>
+          <fpage>973</fpage>
+          <lpage>980</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b77-ijerph-08-01388">
+        <label>77.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wolf</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Nicholls</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Chronic stress, salivary cortisol, and alpha-amylase in children with asthma and healthy children</article-title>
+          <source>Biol. Psychol</source>
+          <year>2008</year>
+          <volume>78</volume>
+          <fpage>20</fpage>
+          <lpage>28</lpage>
+          <pub-id pub-id-type="pmid">18243483</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b78-ijerph-08-01388">
+        <label>78.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Fisher</surname>
+              <given-names>EB</given-names>
+            </name>
+            <name>
+              <surname>Bacharier</surname>
+              <given-names>LB</given-names>
+            </name>
+            <name>
+              <surname>Strunk</surname>
+              <given-names>RC</given-names>
+            </name>
+          </person-group>
+          <article-title>Socioeconomic status, stress, and immune markers in adolescents with asthma</article-title>
+          <source>Psychosom. Med</source>
+          <year>2003</year>
+          <volume>65</volume>
+          <fpage>984</fpage>
+          <lpage>992</lpage>
+          <pub-id pub-id-type="pmid">14645776</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="f1-ijerph-08-01388" position="float">
+      <label>Figure 1.</label>
+      <caption>
+        <p>Key considerations in biomarker development: identification, validation, and application.</p>
+      </caption>
+      <graphic xlink:href="ijerph-08-01388f1"/>
+    </fig>
+    <table-wrap id="t1-ijerph-08-01388" position="float">
+      <label>Table 1.</label>
+      <caption>
+        <p>Biomarkers used to investigate immunotoxicity in human studies.</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th align="left" valign="bottom" rowspan="1" colspan="1">
+              <bold>Immune Markers</bold>
+            </th>
+            <th align="center" valign="bottom" rowspan="1" colspan="1">
+              <bold>Examples of Endpoints</bold>
+            </th>
+            <th align="center" valign="bottom" rowspan="1" colspan="1">
+              <bold>Biological Samples</bold>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Cellular phenotype; activation markers</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">CD3, CD4, CD8, CD11c, CD19, CD25, CD56, CD14, basophils, neutrophils; Activation markers: CD69, CD45RO, CD45RA</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Whole blood, Urine</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Antibodies</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">IgM, IgD, IgG, IgA, IgE,</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Plasma, Breastmilk</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Cytokines</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">IL-2, IL-4, IL-5, IL-10, IL-13, IFN-γ, TNF-α, GM-CSF</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Serum/plasma, peripheral blood, urine, saliva</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Chemokines</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">RANTES, IP-10, MIP-1α, MIP-1β, MDC, TARC</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Serum/plasma</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Proliferation Tests</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Mitogenic stimulation (PHA, Concavalin A, specific antigen)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Peripheral blood</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="t2-ijerph-08-01388" position="float">
+      <label>Table 2.</label>
+      <caption>
+        <p>Findings from selected biomarker studies on the relationship between environmental exposures and health outcomes.</p>
+      </caption>
+      <table frame="hsides" rules="rows">
+        <thead>
+          <tr>
+            <th align="left" valign="top" rowspan="1" colspan="1"/>
+            <th align="left" valign="top" rowspan="1" colspan="1">
+              <bold>Description of Epidemiology Study Design &amp; Subjects</bold>
+            </th>
+            <th align="left" valign="top" rowspan="1" colspan="1">
+              <bold>Method of exposure assessment</bold>
+            </th>
+            <th align="left" valign="top" rowspan="1" colspan="1">
+              <bold>Biological sample and (immune biomarkers employed)</bold>
+            </th>
+            <th align="left" valign="top" rowspan="1" colspan="1">
+              <bold>Key findings and evaluation of concordance</bold>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="left" valign="top" rowspan="3" colspan="1">Atopy</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Longitudinal/Prospective; (n = 3,062), combined birth cohorts (ages 1–8 years)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Questionnaire; indoor environment, pet exposure</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Peripheral blood (total and specific IgE and CD14/IL13 genotypes)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Atopy influenced by IL13 in &lt;8 years and CD14 with pet interaction in ages 4 and 8 (Bottema <italic>et al</italic>. 2008) [<xref ref-type="bibr" rid="b37-ijerph-08-01388">37</xref>]</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Longitudinal; birth cohort (n = 172)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+            <td align="left" valign="top" rowspan="1" colspan="1">Peripheral blood (differential cell counts and IFN-γ, TNF-α, IL-4, IL-5, IL-9, Il-10, IL-13 by ELISA)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Atopy associated with increased Th2; bronchial hyperresponsiveness associated with Th1 (Heaton <italic>et al</italic>. 2005) [<xref ref-type="bibr" rid="b38-ijerph-08-01388">38</xref>]</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Cross-sectional; children ages 6–16 (n = 24) <italic>vs</italic>. reference group</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Questionnaire; parental tobacco smoke</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Nasopharangeal aspirate (analyzed for IL-13 cytokine levels)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">ETS augments secretion of IL-13 (Feleszko <italic>et al</italic>. 2006) [<xref ref-type="bibr" rid="b39-ijerph-08-01388">39</xref>]</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Asthma</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Longitudinal/Prospective; birth cohort (n = 239)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Questionnaire; pesticide and allergen exposures</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Peripheral blood (intracellular IFN-γ and IL-4 in T-helper cells)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Th2 cells associated with asthma and wheeze; Th1 associated with breastfeeding and parental occupation in agriculture (Duramad <italic>et al</italic>. 2006) [<xref ref-type="bibr" rid="b40-ijerph-08-01388">40</xref>]</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle" rowspan="2" colspan="1">Asthma</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Cross-sectional; children with asthma (n = 33) <italic>vs</italic>. health controls</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Questionnaire</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Exhaled breath condensate (IFN-γ, TNF-α, IL-2, IL-4, IL-5, IL-10)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Cytokine levels low but detectable; processing method needs improvement (Robroeks <italic>et al</italic>. 2006) [<xref ref-type="bibr" rid="b22-ijerph-08-01388">22</xref>]</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Case-control retrospective; adults ages 20–79 (n = 3,443)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Questionnaire and blood evaluation: ethanol levels, CDT1, GGT, ASAT, ALAT</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Peripheral Blood; (serum IgE)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Positive associations between alcohol consumption and total IgE serum levels in atopic subjects (Friedrich <italic>et al</italic>. 2008) [<xref ref-type="bibr" rid="b41-ijerph-08-01388">41</xref>]</td>
+          </tr>
+          <tr>
+            <td align="center" valign="middle" rowspan="3" colspan="1">Chronic Obstructive Pulmonary Disease (COPD)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Cross-sectional; patients with COPD (n = 35), non-smokers (n = 18), and smokers (n = 20)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Questionnaire; criteria for non-smokers was normal spirometry results</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Induced sputum (differential cell counts; CXCL9, CXCL10, CXCL11, and CCL5 by ELISA)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">CXCR3 and CCL5 increased in COPD patients compared with non smokers (Costa, <italic>et al</italic>. 2008) [<xref ref-type="bibr" rid="b42-ijerph-08-01388">42</xref>]</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Cross-sectional; patients with COPD (n = 26), smokers (n = 19), healthy non-smokers (n = 5)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Questionnaire; history of smoking</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Bronchial Alveolar Lavage (BAL) and peripheral blood (CD3, CD4, CD8, CD45RA, CD25, CD69)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Increased CD8 and CD4+CD25+ in COPD BAL samples (Smyth <italic>et al</italic>. 2007) [<xref ref-type="bibr" rid="b43-ijerph-08-01388">43</xref>]</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">Cross-sectional; COPD (n = 30), divided into two categories: Forced-expiratory volume in 1 second (FEV1) &lt;50% and &gt;50%</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Questionnaire; smoking status</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Induced sputum (IL-6, IL-8 and TNF-α)</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Mean levels of three cytokines elevated in severe <italic>vs</italic>. moderate COPD (Hacievliyagil <italic>et al</italic>. 2005) [<xref ref-type="bibr" rid="b44-ijerph-08-01388">44</xref>]</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn1-ijerph-08-01388">
+          <label>1</label>
+          <p>carbohydrate-deficient transferring (CDT), gamma-glutamyl transferase (GGT), aspartate-amino transferase (ASAT), alanine-amino transferase (ALAT) are biomarkers of recent and long-term exposure to alcohol [<xref ref-type="bibr" rid="b45-ijerph-08-01388">45</xref>].</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

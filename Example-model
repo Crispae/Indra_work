@@ -1,0 +1,523 @@
+var exp_colorscale = [];
+var mut_colorscale = [];
+var model_elements = {
+ "edges": [
+  {
+   "data": {
+    "i": "Complex",
+    "id": 2,
+    "polarity": "none",
+    "source": 0,
+    "target": 1,
+    "uuid_list": [
+     "e19a4075-675e-4172-b040-bbc68c710eb5"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 4,
+    "polarity": "positive",
+    "source": 3,
+    "target": 0,
+    "uuid_list": [
+     "4763f508-e019-43f4-947d-d3f323838a63",
+     "16a53e1d-6161-4957-941d-5ad071b21129",
+     "e7422bc1-c86f-44d0-8dc2-aa11984263b9"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 6,
+    "polarity": "positive",
+    "source": 0,
+    "target": 5,
+    "uuid_list": [
+     "a2dcbd7d-9772-4e8a-bb7b-7a5d48c03ee9",
+     "443a515c-4bd4-4f04-8b96-fdd76a5a71c3"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 8,
+    "polarity": "positive",
+    "source": 7,
+    "target": 5,
+    "uuid_list": [
+     "74a6e6d4-5026-41fc-a778-d520da4349ee"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 10,
+    "polarity": "positive",
+    "source": 9,
+    "target": 5,
+    "uuid_list": [
+     "155f3e67-9c87-4c18-a67b-d3ea4afb243c"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 12,
+    "polarity": "negative",
+    "source": 0,
+    "target": 11,
+    "uuid_list": [
+     "bd419143-7155-4b37-b14e-987e1b2eb449"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 14,
+    "polarity": "negative",
+    "source": 13,
+    "target": 5,
+    "uuid_list": [
+     "65635bf0-ec7d-4270-b9df-d6e1666f71c0"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 16,
+    "polarity": "negative",
+    "source": 13,
+    "target": 15,
+    "uuid_list": [
+     "d003b21b-9511-49f0-9dce-6d69721af400"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 18,
+    "polarity": "positive",
+    "source": 17,
+    "target": 0,
+    "uuid_list": [
+     "923cba5f-df8c-43a1-972d-8fe19edcd07a"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 20,
+    "polarity": "positive",
+    "source": 19,
+    "target": 0,
+    "uuid_list": [
+     "9747c938-e3cb-410d-824d-d68234f4928f"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 22,
+    "polarity": "negative",
+    "source": 0,
+    "target": 21,
+    "uuid_list": [
+     "accef643-8555-4489-8d36-df211201d1d3"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 25,
+    "polarity": "negative",
+    "source": 23,
+    "target": 24,
+    "uuid_list": [
+     "0aeb0c13-8006-4bfb-8754-60bdeda1c8f0"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 26,
+    "polarity": "positive",
+    "source": 0,
+    "target": 15,
+    "uuid_list": [
+     "15efd3bc-362f-41f6-a583-91bf5ecc5397"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 27,
+    "polarity": "positive",
+    "source": 0,
+    "target": 3,
+    "uuid_list": [
+     "bc112839-09f8-4bd2-b096-d88cbbdc209c"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 30,
+    "polarity": "negative",
+    "source": 28,
+    "target": 29,
+    "uuid_list": [
+     "5cb7c6f9-7da1-4c99-a42e-141efc80adb3"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Inhibition",
+    "id": 33,
+    "polarity": "negative",
+    "source": 31,
+    "target": 32,
+    "uuid_list": [
+     "604c9972-af11-4767-86ef-8c1acdd95e6f"
+    ]
+   }
+  },
+  {
+   "data": {
+    "i": "Activation",
+    "id": 34,
+    "polarity": "positive",
+    "source": 17,
+    "target": 15,
+    "uuid_list": [
+     "68a837db-864d-460f-a19d-f987541292cd"
+    ]
+   }
+  }
+ ],
+ "nodes": [
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:196",
+     "HGNC": "https://identifiers.org/hgnc:348",
+     "TEXT": "AhR",
+     "UniProt": "https://identifiers.org/uniprot:P35869"
+    },
+    "id": 0,
+    "members": {},
+    "name": "AHR",
+    "parent": "",
+    "uuid_list": [
+     "e19a4075-675e-4172-b040-bbc68c710eb5",
+     "4763f508-e019-43f4-947d-d3f323838a63",
+     "a2dcbd7d-9772-4e8a-bb7b-7a5d48c03ee9",
+     "443a515c-4bd4-4f04-8b96-fdd76a5a71c3",
+     "bd419143-7155-4b37-b14e-987e1b2eb449",
+     "923cba5f-df8c-43a1-972d-8fe19edcd07a",
+     "9747c938-e3cb-410d-824d-d68234f4928f",
+     "16a53e1d-6161-4957-941d-5ad071b21129",
+     "accef643-8555-4489-8d36-df211201d1d3",
+     "e7422bc1-c86f-44d0-8dc2-aa11984263b9",
+     "15efd3bc-362f-41f6-a583-91bf5ecc5397",
+     "bc112839-09f8-4bd2-b096-d88cbbdc209c"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:405",
+     "HGNC": "https://identifiers.org/hgnc:700",
+     "TEXT": "ARNT",
+     "UniProt": "https://identifiers.org/uniprot:P27540"
+    },
+    "id": 1,
+    "members": {},
+    "name": "ARNT",
+    "parent": "",
+    "uuid_list": [
+     "e19a4075-675e-4172-b040-bbc68c710eb5"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:9644",
+     "HGNC": "https://identifiers.org/hgnc:23664",
+     "TEXT": "fish",
+     "UniProt": "https://identifiers.org/uniprot:Q5TCZ1"
+    },
+    "id": 3,
+    "members": {},
+    "name": "SH3PXD2A",
+    "parent": "",
+    "uuid_list": [
+     "4763f508-e019-43f4-947d-d3f323838a63",
+     "16a53e1d-6161-4957-941d-5ad071b21129",
+     "e7422bc1-c86f-44d0-8dc2-aa11984263b9",
+     "bc112839-09f8-4bd2-b096-d88cbbdc209c"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "GO": "https://identifiers.org/GO:0030154",
+     "MESH": "https://identifiers.org/mesh:D002454",
+     "TEXT": "differentiation"
+    },
+    "id": 5,
+    "members": {},
+    "name": "cell differentiation",
+    "parent": "",
+    "uuid_list": [
+     "a2dcbd7d-9772-4e8a-bb7b-7a5d48c03ee9",
+     "443a515c-4bd4-4f04-8b96-fdd76a5a71c3",
+     "74a6e6d4-5026-41fc-a778-d520da4349ee",
+     "155f3e67-9c87-4c18-a67b-d3ea4afb243c",
+     "65635bf0-ec7d-4270-b9df-d6e1666f71c0"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "receptor"
+    },
+    "id": 7,
+    "members": {},
+    "name": "receptor",
+    "parent": "",
+    "uuid_list": [
+     "74a6e6d4-5026-41fc-a778-d520da4349ee"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:613",
+     "HGNC": "https://identifiers.org/hgnc:1014",
+     "TEXT": "BCR",
+     "UniProt": "https://identifiers.org/uniprot:P11274"
+    },
+    "id": 9,
+    "members": {},
+    "name": "BCR",
+    "parent": "",
+    "uuid_list": [
+     "155f3e67-9c87-4c18-a67b-d3ea4afb243c"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "ChEBI": "https://identifiers.org/CHEBI:89981",
+     "MESH": "https://identifiers.org/mesh:D004731",
+     "PubChem": "https://identifiers.org/pubchem.compound:53481793",
+     "TEXT": "lipopolysaccharide"
+    },
+    "id": 11,
+    "members": {},
+    "name": "LPS with O-antigen",
+    "parent": "",
+    "uuid_list": [
+     "bd419143-7155-4b37-b14e-987e1b2eb449"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "GO": "https://identifiers.org/GO:0006915",
+     "MESH": "https://identifiers.org/mesh:D017209",
+     "TEXT": "apoptosis"
+    },
+    "id": 13,
+    "members": {},
+    "name": "apoptotic process",
+    "parent": "",
+    "uuid_list": [
+     "65635bf0-ec7d-4270-b9df-d6e1666f71c0",
+     "d003b21b-9511-49f0-9dce-6d69721af400"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "GO": "https://identifiers.org/GO:0006955",
+     "TEXT": "immunity"
+    },
+    "id": 15,
+    "members": {},
+    "name": "immune response",
+    "parent": "",
+    "uuid_list": [
+     "d003b21b-9511-49f0-9dce-6d69721af400",
+     "15efd3bc-362f-41f6-a583-91bf5ecc5397",
+     "68a837db-864d-460f-a19d-f987541292cd"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "PAHs"
+    },
+    "id": 17,
+    "members": {},
+    "name": "PAHs",
+    "parent": "",
+    "uuid_list": [
+     "923cba5f-df8c-43a1-972d-8fe19edcd07a",
+     "68a837db-864d-460f-a19d-f987541292cd"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "HAHs"
+    },
+    "id": 19,
+    "members": {},
+    "name": "HAHs",
+    "parent": "",
+    "uuid_list": [
+     "9747c938-e3cb-410d-824d-d68234f4928f"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "CYP1A",
+     "UniProt": "https://identifiers.org/uniprot:Q92039"
+    },
+    "id": 21,
+    "members": {},
+    "name": "cyp1a1",
+    "parent": "",
+    "uuid_list": [
+     "accef643-8555-4489-8d36-df211201d1d3"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "TEXT": "\u00b5g/kg TCCD"
+    },
+    "id": 23,
+    "members": {},
+    "name": "\u00b5g/kg TCCD",
+    "parent": "",
+    "uuid_list": [
+     "0aeb0c13-8006-4bfb-8754-60bdeda1c8f0"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "GO": "https://identifiers.org/GO:0008283",
+     "MESH": "https://identifiers.org/mesh:D049109",
+     "TEXT": "proliferation"
+    },
+    "id": 24,
+    "members": {},
+    "name": "cell population proliferation",
+    "parent": "",
+    "uuid_list": [
+     "0aeb0c13-8006-4bfb-8754-60bdeda1c8f0"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:4878",
+     "HGNC": "https://identifiers.org/hgnc:7939",
+     "TEXT": "ANF",
+     "UniProt": "https://identifiers.org/uniprot:P01160"
+    },
+    "id": 28,
+    "members": {},
+    "name": "NPPA",
+    "parent": "",
+    "uuid_list": [
+     "5cb7c6f9-7da1-4c99-a42e-141efc80adb3"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:55364",
+     "HGNC": "https://identifiers.org/hgnc:20387",
+     "TEXT": "impact",
+     "UniProt": "https://identifiers.org/uniprot:Q9P2X3"
+    },
+    "id": 29,
+    "members": {},
+    "name": "IMPACT",
+    "parent": "",
+    "uuid_list": [
+     "5cb7c6f9-7da1-4c99-a42e-141efc80adb3"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "ChEBI": "https://identifiers.org/CHEBI:30741",
+     "PubChem": "https://identifiers.org/pubchem.compound:5461084",
+     "TEXT": "EGTA"
+    },
+    "id": 31,
+    "members": {},
+    "name": "ethylene glycol bis(2-aminoethyl)tetraacetate",
+    "parent": "",
+    "uuid_list": [
+     "604c9972-af11-4767-86ef-8c1acdd95e6f"
+    ]
+   }
+  },
+  {
+   "data": {
+    "db_refs": {
+     "EGID": "https://identifiers.org/ncbigene:3569",
+     "HGNC": "https://identifiers.org/hgnc:6018",
+     "TEXT": "IL-6",
+     "UniProt": "https://identifiers.org/uniprot:P05231"
+    },
+    "id": 32,
+    "members": {},
+    "name": "IL6",
+    "parent": "",
+    "uuid_list": [
+     "604c9972-af11-4767-86ef-8c1acdd95e6f"
+    ]
+   }
+  }
+ ]
+};
